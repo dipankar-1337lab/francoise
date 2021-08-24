@@ -1,0 +1,204 @@
+html,
+body {
+    height: auto;
+    /* Prevent scroll on narrow devices */
+}
+
+body { font-family: 'Trirong', serif;}
+
+h1, h2, h3, h4, h5.h6 { font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: 500;}
+
+section {margin: 0px; padding: 0px;}
+ 
+button {    border: none;  background: none; }
+/*****************************   HOME ***************************************/
+
+#sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+ 
+  background:url(../img/francoise-belizaire-home.jpg) center top no-repeat;
+      
+ 
+} 
+
+.doble{     }
+.total {min-height: 99vh;   }
+.cuarto {min-height:   display:inherit; margin: 0px!important; padding: 0px !important;}
+
+/*****************************  NAVIGATION **********************************/
+
+/*.navbar-toggler-icon color: #000!important;}
+  .navbar-nav {flex-direction: column !important;} */
+
+
+.navbar-brand {font-size: 2em; font-weight: 700;}
+
+.nav-item{text-align: center;}  /*menu element*/
+.nav-buton {z-index: 9999;}
+     
+.offcanvas-collapse {
+    position: fixed;
+    top: 0px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 34%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition: transform .3s ease-in-out, visibility .6s ease-in-out;
+  }
+    
+.offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+ 
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+/**** NAVIGATION ITEMS **************/
+
+
+
+.nav-link {
+    font-size: 2em; padding: 1em;
+    color: #fff !important;
+}
+.muted {opacity: 0.1;}
+
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+/***********************      CLIENT SERVICES      ************************/
+
+.black {color: #000 !important; font-size: 3em; text-align: center; list-style: none; margin: 0 auto;}
+
+
+.b2c-collapse {
+    position: fixed;
+    top: 0px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background: #fff !important;
+    transition: transform .3s ease-in-out, visibility .6s ease-in-out;
+  }
+    
+.b2c-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+
+.b2b-collapse {
+    position: fixed;
+    top: 0px; /* Height of navbar */
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    background: #fff !important;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+     
+    transition: transform .3s ease-in-out, visibility .6s ease-in-out;
+  }
+    
+.b2b-collapse.open {
+    visibility: visible;
+    transform: translateX(100%);
+    transition: transform .3s ease-in-out, visibility .6s ease-in-out;
+  }
+
+
+#closer, #closer2 {
+    
+}
+.b2c-collapse ul li {list-style-type: none;}
+
+.b2c-collapse-rightSide{
+    background: url(../img/services-b2c-Events-Background.jpg) center center cover no-repeat !important;
+    
+}
+
+.b2c-collapse-rightSide ul li{
+    font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: 500; color: #fff; 
+     
+}
+
+.b2b-collapse-leftSide {
+     background: url(../img/services-b2b-Events-Background.jpg) center center cover no-repeat !important;
+}
+.b2b-collapse-leftSide h3 { margin: 1.1em;}
+.b2b-collapse-leftSide button { margin: 1.1em;}
+/***************  ABOUT TESTIMONIALS   ******************************/
+
+
+.bg-purple {  background-color: #6f42c1;
+}
+
+.carousel-caption{
+    color: #343a40;
+}
+.carousel-control-next, .carousel-control-prev{   color: #343a40;
+}
+form{
+    width: auto;
+    
+}
+.form-control {
+    margin: 2.5em;
+    border-radius: 0 !important;
+    border: none;
+    border-bottom: solid 1px #343a40; 
+    width: 100%;
+    font-style:italic;
+    font-size: 1.5em;
+}
+.btn-send { margin-left: 3em;}
+.sideContact {background-color: #edecec !important;}
+.iconContact-1{margin-left: 0px;}
+.iconContact-2{margin-left: 20px;}
