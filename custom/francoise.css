@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5.h6 { font-family: 'Montserrat', sans-serif; text-transform: u
 section {margin: 0px; padding: 0px;}
  
 button {    border: none;  background: none; }
+.nav-button {margin-top: 15px;}
 /*****************************   HOME ***************************************/
 
 #sticky {
@@ -22,11 +23,30 @@ button {    border: none;  background: none; }
   justify-content: center;
   align-items: center;
   color: #fff;
- 
   background:url(../img/francoise-belizaire-home.jpg) center top no-repeat;
-      
- 
 } 
+
+.slogan{
+  position: absolute;
+  top: 70% !important;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.client_services ul li{
+  margin: 20px;
+}
+
+.client_services .learnmore{
+  margin-top: 40px!important;
+}
+
+.client_services .learnmore button{
+  font-size: 35px;
+  font-weight: bold;
+}
 
 .doble{     }
 .total {min-height: 99vh;   }
@@ -48,12 +68,13 @@ button {    border: none;  background: none; }
     top: 0px; /* Height of navbar */
     bottom: 0;
     left: 100%;
-    width: 34%;
+    width: 44%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #343a40;
+    /* background-color: #343a40; */
+    background-color: #000000; 
     transition: transform .3s ease-in-out, visibility .6s ease-in-out;
   }
     
@@ -202,3 +223,53 @@ form{
 .sideContact {background-color: #edecec !important;}
 .iconContact-1{margin-left: 0px;}
 .iconContact-2{margin-left: 20px;}
+
+
+.arrow {
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  text-indent: -9999px;
+  border-top: 2px solid #bfbfbf;
+  border-left: 2px solid #bfbfbf;
+  transition: all 250ms ease-in-out;
+  text-decoration: none;
+  color: transparent;
+}
+
+.arrow:hover {
+  border-color: gray;
+  border-width: 5px;
+}
+
+.arrow:before {
+  display: block;
+  height: 200%;
+  width: 200%;
+  margin-left: -50%;
+  margin-top: -50%;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.arrow.prev {
+  transform: rotate(-45deg);
+  left: 0;
+}
+
+.arrow.next {
+  transform: rotate(135deg);
+  right: 0;
+}
+
+.arrow.up {
+  transform: rotate(45deg);
+  left: 175px;
+}
+
+.arrow.down {
+  transform: rotate(-135deg);
+  right: 175px;
+}
