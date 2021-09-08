@@ -34,12 +34,6 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Trirong:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
-    
-    
-    
-    
-    
-    
 </head>
 
 <body >
@@ -312,47 +306,31 @@ His natural ability for connecting with people and strategically forming collabo
      
      
 <section id="contact" class="cover-container d-flex w-100 h-100 align-items-center  vh-100"> <!-- flex comlumn -->
-    
      <div class="container-fluid">
         <div class="row"> 
-                <div class="d-flex col-xl-8  align-items-center p-5">
-                     <form>
-             
-            <input type="txt" class="form-control" placeholder="Your Name" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-    
-            <input type="email" class="form-control"  placeholder="E-mail" id="exampleInputPassword1"> 
-            <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
-                           
-                    
-                    </form>
+            <div class="d-flex col-xl-8  align-items-center p-5">
+                  <form>             
+                    <input type="txt" class="form-control" placeholder="Your Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->    
+                    <input type="email" class="form-control"  placeholder="E-mail" id="exampleInputPassword1"> 
+                    <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>   
+                </form>
+            </div>            
+            <div class="d-flex col-xl-4 vh-100 p-5  wow animate slideInRight sideContact" >
+                <div class=" d-flex align-items-center ">
+                <div class="content">
+                <h1 class="h3 ">Contact</h1>
+                <p>Contact me to take the first steps into a new tech and luxury world.</p>
+                <p class="p-3"> Also dont forget to get social with me in linkedin or instagram. </p>
+                <a href="https://www.instagram.com/iamfrancoisb/" target="_blank"><img src="img/Ig-Icon.jpg" class="iconContact-1"></a>
+                <a href="https://www.linkedin.com/in/francoisbelizaire" target="_blank">  <img src="img/Ig-Link.jpg" class="iconContact-2"></a>
                 </div>
-            
-                <div class="d-flex col-xl-4 vh-100 p-5  wow animate slideInRight sideContact" >
-                    <div class=" d-flex align-items-center ">
-                    <div class="content">
-                    <h1 class="h3 ">Contact</h1>
-                    <p>Contact me to take the first steps into a new tech and luxury world.</p>
-                    <p class="p-3"> Also dont forget to get social with me in linkedin or instagram. </p>
-                    <a href="https://www.instagram.com/iamfrancoisb/" target="_blank"><img src="img/Ig-Icon.jpg" class="iconContact-1"></a>
-                    <a href="https://www.linkedin.com/in/francoisbelizaire" target="_blank">  <img src="img/Ig-Link.jpg" class="iconContact-2"></a>
-                    </div>
-                    </div>
                 </div>
-          </div> <!--  end row -->
+            </div>
+        </div> <!--  end row -->
      </div> <!-- end container -->      
      
 </section>
- 
- 
-      
-      
-      
-      
-      
-      
-
-
 
 <!-- Averiguar que tiene el bundle -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
@@ -360,8 +338,6 @@ His natural ability for connecting with people and strategically forming collabo
 <script src="js/bootstrap.bundle.min.js"></script>
 
 <script src="custom/francoise.js"></script>
-    
-    
     
 <!----------- animate y wow ------------->
       
@@ -392,17 +368,14 @@ His natural ability for connecting with people and strategically forming collabo
 
   // Attach scrollSpy to .wow elements for detect view exit events,
   // then reset elements and add again for animation
-  $('.wow').on('scrollSpy:exit', function() {
-    $(this).css({
-      'visibility': 'hidden',
-      'animation-name': 'none'
-    }).removeClass('animated');
-    wow.addBox(this);
-  }).scrollSpy();
+  // $('.wow').on('scrollSpy:exit', function() {
+  //   $(this).css({
+  //     'visibility': 'hidden',
+  //     'animation-name': 'none'
+  //   }).removeClass('animated');
+  //   wow.addBox(this);
+  // }).scrollSpy();
 
 </script>
-    
-    
-    
-  </body>
+</body>
 </html>

@@ -86,9 +86,8 @@ button {    border: none;  background: none; }
   font-size: 30px;
 }
 
-.doble{     }
 .total {min-height: 99vh;   }
-.cuarto {min-height:   display:inherit; margin: 0px!important; padding: 0px !important;}
+.cuarto {display:inherit; margin: 0px!important; padding: 0px !important;}
 
 /*****************************  NAVIGATION **********************************/
 
@@ -213,9 +212,6 @@ button {    border: none;  background: none; }
   }
 
 
-#closer, #closer2 {
-    
-}
 .b2c-collapse ul li {list-style-type: none;}
 
 .b2c-collapse-rightSide{
