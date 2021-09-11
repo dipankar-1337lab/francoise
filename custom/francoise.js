@@ -60,8 +60,8 @@ Array.prototype.forEach.call(closeMenuG, function (element) {
 
 ////// Logo on Scroll //////
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 1550) {
-	  
+  if ($(this).scrollTop() > 950) {
+
     $('.navbar').addClass('fixbar');
     $('.logo').addClass('logoSmall');
   } else {

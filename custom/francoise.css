@@ -184,7 +184,7 @@ button {    border: none;  background: none; }
     visibility: hidden;
     background: #fff !important;
     transition: transform .3s ease-in-out, visibility .6s ease-in-out;
-    z-index: 3;
+    z-index: 1031;
   }
     
 .b2c-collapse.open {
@@ -205,7 +205,7 @@ button {    border: none;  background: none; }
     visibility: hidden;
      
     transition: transform .3s ease-in-out, visibility .6s ease-in-out;
-    z-index: 3;
+    z-index: 1031;
   }
     
 .b2b-collapse.open {
@@ -312,7 +312,7 @@ form{
   right: 175px;
 }
 
-/*.cover-container{overflow: hidden;}*/
+#contact.cover-container{overflow: hidden;}
 .navbar-brand.logo{ transition: ease all 0.5s;}
 .navbar-brand.logoSmall{font-size: 1em;}
 
@@ -346,6 +346,9 @@ form{
 #about h3{margin-top: 40px;}
 
 .carousel-item .carousel-caption{display: flex;}
+#clientservices.cover-container,
+.cover-container .testimonials{padding-top: 53px;}
+.fixbar .nav-button{margin-top:-25px;}
 
 .modal h5{
 	
@@ -373,7 +376,7 @@ form{
 }
 @media screen and (max-width: 576px) {
   .navbar-brand{font-size: 1.5em; margin-right: 0;}
-  .nav-button{margin-top: 0;}
+  .nav-button{margin-top: -18px;}
   .nav-button .navbar-toggler-icon{width: 1em; height: 1em;}
   .nav-button .navbar-toggler-icon .fa-3x{font-size: 2em;}
   .black{padding: 0; font-size: 1.5em;}
@@ -384,7 +387,7 @@ form{
   .client_services .learnmore h5{font-size: 16px;}
   .learnmore div > span{font-size: 40px !important;}
   .client_services .learnmore .learnmore-center{margin-top:16px;}
-  #clientservices .content button{left: -80px; top: -80px;}
+  #clientservices .content button{left: -34%; top: -12%;}
   #about h3{margin-top: 60px;font-size: 30px;}
   #about p{margin-top: 20px;}
   .carousel-control-prev-icon:after,
@@ -394,4 +397,79 @@ form{
   #testimonials .carousel-item .carousel-caption p{font-size: 0.95rem;}
   .vh-100{height: auto !important;}
   .cover-container{overflow: hidden;}
+  .b2c-collapse .b2c > .row,
+  .b2b-collapse.b2b .container-fluid > .row{margin-left: 0!important}
+  .b2c-collapse .b2c > .row > .d-flex,
+  /*.b2b-collapse.b2b .container-fluid > .row > .d-flex {padding:6rem 1.3rem 3rem 1.3rem !important}*/
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.slogan {
+		
+		    color: #000000;
+			top: 80% !important;
+	}
+	.nav-button {
+		margin-top: -25px;
+	}
+	
+	#about.cover-container {
+    margin-top: 227px;
+	}
+	
+	.client_services .learnmore h5 {
+    margin-top: 14px !important;
+    font-size: 20px;
+    font-weight: bold;
+	}
+	.client_services ul li {
+    margin: 20px;
+    margin: 5px 20px;
+    font-size: 30px;
+	}
+	#clientservices .content button {
+  
+    left: -68px;
+    top: -62px;
+   
+	}
+	#clientservices .b2c .content button {
+  
+    left: -190px;
+    top: -62px;
+   
+	}
+	#about h3 {
+    margin-top: 60px;
+    font-size: 30px;
+	}
+	#about p {
+    margin-top: 20px;
+	}
+	
+	
+	#testimonials.cover-container {
+    margin-top:130px;
+	}
+	#testimonials .carousel-caption {
+    top: 35%;
+	}
+	
+	
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+
+@media (min-width: 1200px) { 
+
 }
