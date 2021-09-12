@@ -461,7 +461,56 @@ form{
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
+	.slogan {
+		
+		    color: #000000;
+			top: 80% !important;
+	}
+	.nav-button {
+		margin-top: -25px;
+	}
+	
+	#about.cover-container {
+    margin-top: 227px;
+	}
+	
+	.client_services .learnmore h5 {
+    margin-top: 14px !important;
+    font-size: 20px;
+    font-weight: bold;
+	}
+	.client_services ul li {
+    margin: 20px;
+    margin: 5px 20px;
+    font-size: 30px;
+	}
+	#clientservices .content button {
+  
+    left: -68px;
+    top: -62px;
+   
+	}
+	#clientservices .b2c .content button {
+  
+    left: -190px;
+    top: -62px;
+   
+	}
+	#about h3 {
+    margin-top: 60px;
+    font-size: 30px;
+	}
+	#about p {
+    margin-top: 20px;
+	}
+	
+	
+	#testimonials.cover-container {
+    margin-top:130px;
+	}
+	#testimonials .carousel-caption {
+    top: 35%;
+	}
 }
 
 
