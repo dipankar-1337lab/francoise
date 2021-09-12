@@ -311,7 +311,9 @@ form{
   transform: rotate(-135deg);
   right: 175px;
 }
-
+.text-justify{
+	    text-align: justify;
+}
 #contact.cover-container{overflow: hidden;}
 .navbar-brand.logo{ transition: ease all 0.5s;}
 .navbar-brand.logoSmall{font-size: 1em;}
@@ -367,6 +369,10 @@ form{
 .fixbar{
 	background-color:#fff;
 }
+.nav-button{
+	 width: 50px;
+    height: 55px;
+}
 @media screen and (max-width: 1024px) {
   #testimonials .carousel-item{min-width: 100%;}
   .btn-send{margin-left: 0;}
@@ -387,7 +393,7 @@ form{
   .client_services .learnmore h5{font-size: 16px;}
   .learnmore div > span{font-size: 40px !important;}
   .client_services .learnmore .learnmore-center{margin-top:16px;}
-  #clientservices .content button{left: -34%; top: -12%;}
+  #clientservices .content button{left: -34%;top: -26%;}
   #about h3{margin-top: 60px;font-size: 30px;}
   #about p{margin-top: 20px;}
   .carousel-control-prev-icon:after,
@@ -401,6 +407,7 @@ form{
   .b2b-collapse.b2b .container-fluid > .row{margin-left: 0!important}
   .b2c-collapse .b2c > .row > .d-flex,
   /*.b2b-collapse.b2b .container-fluid > .row > .d-flex {padding:6rem 1.3rem 3rem 1.3rem !important}*/
+  #clientservices .content{position: relative; margin-top: 35%;}
 }
 
 
