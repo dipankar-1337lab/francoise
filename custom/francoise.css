@@ -74,7 +74,7 @@ button {
   margin-top: 25px;
 } */
 .client_services .learnmore .learnmore-center {
-  margin-top: 26px;
+  margin-top: 7px;
 }
 
 .client_services .actionbutton {
@@ -1130,16 +1130,41 @@ select {
     margin-top: -25px;
   }
 
-  #about.cover-container {
-    margin-top: 227px;
-  }
-
+#about.vh-100 {
+    height: 153vh!important;
+}
+#contact.vh-100 {
+    height: 170vh!important;
+}
+.contactWrp label {
+	float:left;
+}
+input.form-control {
+   width: 60% !important;
+}
+.modal label {
+   
+    font-size: 18px;
+  
+}
+.client_services .actionbutton {
+    margin:0;
+}
   .client_services .learnmore h5 {
     margin-top: 14px !important;
     font-size: 20px;
     font-weight: bold;
   }
-
+  .modal.show .modal-dialog {
+        margin: 0;
+    max-width: 100%;
+}
+#clientservices .b2b .content button {
+  
+    top: -43px;
+   
+    left: 100%;
+}
   .client_services ul li {
     margin: 20px;
     margin: 5px 20px;
@@ -1155,8 +1180,8 @@ select {
 
   #clientservices .b2c .content button {
 
-    left: -190px;
-    top: -62px;
+    left: 100%;
+    top: -5%;
 
   }
 
@@ -1222,7 +1247,7 @@ select {
   }
 	#clientservices .b2c .content button {
         left: 100%;
-    top: -10%;
+    top: -7%;
 }
 #clientservices .b2c .title {
     font-size: 25px;
