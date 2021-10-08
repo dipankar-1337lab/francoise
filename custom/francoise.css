@@ -686,9 +686,11 @@ form {
   margin: 0;
   background: transparent;
   border: 0px;
-  color: #fff
+  color: #fff;
 }
-
+input.form-control {
+	width: 60%;
+}
 .servModal .selectBox {
   position: relative;
   display: inline-flex;
@@ -758,6 +760,7 @@ select {
   font-family: 'PT Serif';
   font-size: 24px;
   font-style: italic;
+      float: left;
 }
 
 .modal label span {
@@ -972,7 +975,7 @@ select {
   }
 
   .client_services .learnmore .learnmore-center {
-    margin-top: 16px;
+    margin-top: 4px;
   }
 #about .aboutcont{
 	
@@ -1214,11 +1217,11 @@ select {
   }
 
   #clientservices .b2b .content button {
-        left: -25%;
-    top: -12%;
+        left: 100%;
+    top: -8%;
   }
 	#clientservices .b2c .content button {
-        left: -28%;
+        left: 100%;
     top: -10%;
 }
 #clientservices .b2c .title {
@@ -1239,8 +1242,15 @@ select {
   .modal.show .modal-dialog {
 
     max-width: 100%;
-  }
+	background-color:black;
+	margin: 0;
 
+  }
+.modal-content {
+  border-radius: 14px;
+  background-color: #000;
+  color: white;
+}
   .modal.show .modal-dialog .col-6 {
     width: 100%;
   }
@@ -1251,12 +1261,18 @@ select {
 
   .servModal .btn-close {
     right: 7%;
+	z-index: 1;
   }
 
   .modal label {
-    font-size: 20px;
+    font-size: 16px;
+    float: left;
   }
 
+
+input.form-control {
+	width: 63%;
+}
   .contactWrp h3 {
     text-align: center;
     font-size: 18px;
