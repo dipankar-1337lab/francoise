@@ -1066,11 +1066,35 @@ select {
   .nav-button {
     margin-top: -25px;
   }
-
+#testimonials.vh-100 {
+   height: 251vh!important;
+}
+#about.vh-100 {
+   height: 231vh!important;
+}
+#contact.vh-100 {
+    height: 170vh!important;
+}
   #about.cover-container {
     margin-top: 227px;
   }
+.contactWrp label {
+	float:left;
+}
 
+.modal label {
+   
+    font-size: 18px;
+  
+}
+.client_services .actionbutton {
+    margin:0;
+}
+
+  .modal.show .modal-dialog {
+        margin: 0;
+    max-width: 100%;
+}
   .client_services .learnmore h5 {
     margin-top: 14px !important;
     font-size: 20px;
@@ -1083,17 +1107,17 @@ select {
     font-size: 30px;
   }
 
-  #clientservices .content button {
+  #clientservices .b2b .content button {
 
-    left: -68px;
-    top: -62px;
+       left: 100%;
+    top: -5%;
 
   }
 
   #clientservices .b2c .content button {
 
-    left: -190px;
-    top: -62px;
+        left: 100%;
+    top: -5%;
 
   }
 
