@@ -70,8 +70,25 @@ $(window).scroll(function () {
   }
 });
 
-var carousel = $('.testimonials .carousel-item');
-for (var i = 0; i < carousel.length; i++) {
-  var dataBg = $(carousel[i]).attr('data-image')
-  $(carousel[i]).css('background-image', 'url(' + dataBg + ')')
+// var carousel = $('.testimonials .carousel-item');
+// for (var i = 0; i < carousel.length; i++) {
+//   var dataBg = $(carousel[i]).attr('data-image')
+//   $(carousel[i]).css('background-image', 'url(' + dataBg + ')')
+// }
+
+var testModalLink = $('.mobi-testi').find('ul li a')
+console.log(testModalLink)
+
+$('.mobi-testi').find('ul li a').click(function(e){
+  var testContent = $(this).find('p').html();
+  var testHead = $(this).find('h4').html();
+  var testSubtHead = $(this).find('h5').html();
+  $('#testiMobileModal .modal-content p').html(testContent)
+  $('#testiMobileModal .modal-content h4').empty().append(testHead)
+  $('#testiMobileModal .modal-content h5').empty().append(testSubtHead)
+})
+
+var windowWidth = $(window).width();
+if(windowWidth < 767){
+  $('.desk-testi').remove();
 }

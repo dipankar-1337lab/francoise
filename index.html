@@ -7,6 +7,7 @@
   <meta name="description" content="A connocierur in technology applied to the luxury world">
   <meta name="author" content="1337 Labs">
   <title>Francoice Belizaire Maison</title>
+
   <link rel="canonical" href="#">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- Custom styles for this template -->
@@ -17,8 +18,12 @@
   <!--- CUSTOM FONTS ---->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Trirong:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600;1,800&display=swap"
@@ -59,15 +64,15 @@
     <!--  h-100 vh-100 -->
     <div class="container-fluid">
       <div class="row">
-        <div id="sticky" class="col-sm-8 m-0 flex-items   total">
+        <div id="sticky" class="col-sm-12 m-0 flex-items total">
           <h6 class="pb-2 mb-0 slogan">"Opportunities don't happen.<br />You create them."</h6>
         </div>
-        <div class="col-sm-4 m-0">
+        <!-- <div class="col-sm-4 m-0">
           <div class="cuarto"><img src="img/HomeSideImages-01.jpg" class="img-fluid"></div>
           <div class="cuarto"><img src="img/HomeSideImages-02.jpg" class="img-fluid"></div>
           <div class="cuarto"><img src="img/HomeSideImages-03.jpg" class="img-fluid"></div>
           <div class="cuarto"><img src="img/HomeSideImages-04.jpg" class="img-fluid"></div>
-        </div>
+        </div> -->
 
       </div> <!--  end row -->
     </div> <!-- end container -->
@@ -77,19 +82,30 @@
     <section class="b2b-collapse " class=" d-flex w-100 h-100 vh-100 align-items-center">
       <div class="container-fluid b2b">
         <div class="row d-flex align-items-center w-100 h-100 vh-100   ">
-          <div class="col-xl-12 m-0 d-flex justify-content-center text-center p-5">
+          <div class="col-xl-12 m-0 justify-content-center text-center p-5">
             <div class="content">
-              <h3>CLIENT SERVICES B2b</h3>
-              <p><b>Mobile App Solutions for Products and Experience Management</b></p>
-              <p><b>IOT for Products &amp; Business Operations Intelligence</b></p>
-              <p><b>Web Development for exceptional front and backend B2C and B2B experiences</b></p>
-              <br>
-              <button type="button" id="closer" aria-label="Toggle navigation"><span
-                  style="font-size: 50px; color: darkgray; font-weight:100;float: left;">〈</span> BACK </button>
+              <h3 class="title">B2B</h3>
+              <div class="row">
+                <div class="col-xl-4">
+                  <h3 class="subtitle">Mobile Appliction</h3>
+                  <p>product & experiences design <br>mobile technology & database</p>
+                </div>
+                <div class="col-xl-4">
+                  <h3 class="subtitle">IOT</h3>
+                  <p>product & business operations intelligence <br> hardware & software development</p>
+                </div>
+                <div class="col-xl-4">
+                  <h3 class="subtitle">Web Development</h3>
+                  <p>front-end to back-end </p>
+                </div>
+              </div>
+
+              <button type="button" id="closer" aria-label="Toggle navigation"> <img src="img/icoCloseMobile.ioc" />
+              </button>
 
               <!-- Button trigger modal -->
               <a href="#" class="btn moreInfoBtn" data-bs-toggle="modal" data-bs-target="#b2bForm">
-                Get More Information
+                INQUIRY
               </a>
             </div>
           </div>
@@ -97,56 +113,68 @@
       </div>
     </section>
     <!--- B2C --------------------------------------------------------------------------------------------------------->
-    <section class="b2c-collapse" class="d-flex w-100 h-100 vh-100   ">
+     <section class="b2c-collapse" class="d-flex w-100 h-100 vh-100   ">
       <div class="container-fluid b2c">
         <div class="row d-flex align-items-center w-100 h-100 vh-100   ">
-          <div class="col-xl-12 m-0 d-flex justify-content-center text-center p-5">
+          <div class="col-xl-12 m-0 justify-content-center text-center p-5">
             <div class="content">
-              <h3>CLIENT SERVICES</h3>
-              <p> Curated Digital & On-Premise Client Experiences:<br />
-                Retail, Hospitality, Corporate Gatherings</p>
+              <h3 class="title">B2C</h3>
+			  <h4 class="subtitle">Curated Digital & On-Premise Client Experiences</h4>
+              <h4 class="subtitle"> Ambassador | MC | Moderator</h4>
               <ul>
-                <li data-bs-toggle="modal" data-bs-target="#b2cRetail">Retail</li>
-                <li data-bs-toggle="modal" data-bs-target="#b2cHospitality">Hospitality</li>
-                <li data-bs-toggle="modal" data-bs-target="#b2cCorporate">Corporate Events</li>
+			  <li>Artist Representation</li>
+			  <li>Brand Launch Events</li>
+			  <li>Food & Wine Tastings</li>
+			  <li>Fundraisers</li>
+			  <li>Grand Openings</li>
+			  <li>Networking Events</li>
+			  <li>Private Membership Events</li>
+			  <li>Red Carpet Galas</li>
               </ul>
-              <button type="button" id="closer2" aria-label="Toggle navigation"><span
-                  style="font-size: 50px; color: darkgray; font-weight:100;float: left;">〈</span> BACK </button>
+			   <h4 class="subtitle"> Corporate Events | Hospitality | Private Events | Retail</h4>
+               <button type="button" id="closer2" aria-label="Toggle navigation"> <img src="img/icoCloseMobile.ioc" />
+              </button>
+
+              <!-- Button trigger modal -->
+              <a href="#" class="btn moreInfoBtn" data-bs-toggle="modal" data-bs-target="#b2bForm">
+                INQUIRY
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
 	
-	
+
+
     <!---    --------------------------------------------------------------------------------------------------------->
     <div class="container client_services">
       <div class="row">
         <div class="col-xl-12 m-0 d-flex">
           <ul class="black">
-            <li>Building brands.</li>
-            <li>Creating experiences.</li>
-            <li>Forging relationships</li>
-            <li>& Identifying markets.</li>
+            <li>Building Brands</li>
+            <li>Creating Experiences</li>
+            <li>Identifying Markets</li>
+            <li>Forging Relationships</li>
+
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row actionbutton">
         <div class="col-xl-12 learnmore ">
           <div class="row align-items-middle">
-            <div class="col-3 d-inline-flex align-items-middle justify-content-center"><span
-                style="font-size: 70px; color: darkgray; font-weight:100;float: left;">&#12296;</span><button
-                type="button" id="leftMenu" aria-label="Toggle navigation">
-                <h5>B2C</h5>
-              </button></div>
-            <div class="col-6 d-inline-flex align-items-middle justify-content-center"><span class="learnmore-center">
-                <h5>CLIENT SERVICES</h5>
-              </span></div>
-            <div class="col-3 d-inline-flex align-items-middle justify-content-center"><button type="button"
-                id="rightMenu" aria-label="Toggle navigation">
+            <div class="col-3 d-inline-flex align-items-middle justify-content-center">
+              <button type="button" id="rightMenu" aria-label="Toggle navigation">
                 <h5>B2B</h5>
               </button>
-              &nbsp;&nbsp;<span style="font-size: 70px; color: darkgray; font-weight:100;">&#12297;</span>
+            </div>
+            <div class="col-6 d-inline-flex align-items-middle justify-content-center"><span class="learnmore-center">
+                <h5 class="sertitle">SERVICES</h5>
+              </span></div>
+            <div class="col-3 d-inline-flex align-items-middle justify-content-center">
+              <button type="button" id="leftMenu" aria-label="Toggle navigation">
+                <h5>B2C</h5>
+              </button>
             </div>
           </div>
           <!-- <span style="font-size: 70px; color: darkgray; font-weight:100;">&#12296;</span>&nbsp;&nbsp;
@@ -159,29 +187,72 @@
     <div class="modal fade servModal" id="b2bForm" tabindex="-1" aria-labelledby="b2bFormLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-          <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
-          <div class="p-3 col-12 align-items-center">
-            <h5>Get More Information</h5>
-            <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p>
-			
+          <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc" />
+          </a>
+          <div class="p-5 col-12 align-items-center">
+            <!-- <h5>Get More Information</h5>
+            <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p> -->
+
             <form>
-				<div class="row">
-					<div class="col-6">
-					<input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-					</div><div class="col-6">
-					<input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
-					</div>
-			  </div>
-			  <div class="sendbtn">
-              <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
-			  </div>
+              <div class="row">
+                <div class="col-6">
+                  <label for="exampleInputPassword1">First Name: <span>(required)</span></label>
+                  <input type="text" class="form-control" name="firstName" aria-describedby="emailHelp">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputPassword1">Last Name: <span>(required)</span></label>
+                  <input type="text" class="form-control" name="lastName">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputPassword1">Company Name: <span class="error">please fill out this
+                      field</span></label>
+                  <input type="text" class="form-control" name="companyName" aria-describedby="emailHelp">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputPassword1">Job Title: <span>(required)</span></label>
+                  <input type="text" class="form-control" name="jobtitle">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputPassword1">Email: <span>(required)</span></label>
+                  <input type="email" class="form-control" name="email">
+                </div>
+                <div class="col-6">
+                  <label for="exampleInputPassword1">Phone Number: <span class="error">please fill out this
+                      field</span></label>
+                  <input type="text" class="form-control" name="number">
+                </div>
+                <div class="col-12">
+                  <label for="exampleInputPassword1">Select Your Area of interest: </label>
+                  <div class="selectBox">
+                    <select class="form-control">
+                      <option>Select your area of interest</option>
+                      <option>Option1</option>
+                      <option>Option2</option>
+                      <option>Option3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12 pt-3">
+                  <label for="exampleInputPassword1">Please share any additional regarding your interests: </label>
+                  <textarea class="form-control textarea" col="8" rows="4"></textarea>
+                </div>
+              </div>
+
+              <div class="sendbtn sendclick">
+                <button type="submit" class="btn btn-send"> </button>
+              </div>
             </form>
+
+
+            <div class="thankyouWrp" style="display: none;">
+              <h2>Thank you for your inquiry!</h2>
+              <p>You will receive an email response within 48 hours.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-	  <!-- Modal -->
+    <!-- Modal -->
     <div class="modal fade servModal" id="b2cRetail" tabindex="-1" aria-labelledby="b2cRetailLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -189,71 +260,76 @@
           <div class="p-3 col-12 align-items-center">
             <h5>Retail</h5>
             <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p>
-			
+
             <form>
-				<div class="row">
-					<div class="col-6">
-					<input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-					</div><div class="col-6">
-					<input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
-					</div>
-			  </div>
-			  <div class="sendbtn">
-              <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
-			  </div>
+              <div class="row">
+                <div class="col-6">
+                  <input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
+                </div>
+              </div>
+              <div class="sendbtn">
+                <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
+              </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-	  <!-- Modal -->
-    <div class="modal fade servModal" id="b2cHospitality" tabindex="-1" aria-labelledby="b2cHospitalityLabel" aria-hidden="true">
+    <!-- Modal -->
+    <div class="modal fade servModal" id="b2cHospitality" tabindex="-1" aria-labelledby="b2cHospitalityLabel"
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
           <div class="p-3 col-12 align-items-center">
             <h5>Hospitality</h5>
             <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p>
-			
+
             <form>
-				<div class="row">
-					<div class="col-6">
-					<input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-					</div><div class="col-6">
-					<input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
-					</div>
-			  </div>
-			  <div class="sendbtn">
-              <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
-			  </div>
+              <div class="row">
+                <div class="col-6">
+                  <input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
+                </div>
+              </div>
+              <div class="sendbtn">
+                <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
+              </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-	  <!-- Modal -->
-    <div class="modal fade servModal" id="b2cCorporate" tabindex="-1" aria-labelledby="b2cCorporateLabel" aria-hidden="true">
+    <!-- Modal -->
+    <div class="modal fade servModal" id="b2cCorporate" tabindex="-1" aria-labelledby="b2cCorporateLabel"
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
           <div class="p-3 col-12 align-items-center">
             <h5>Corporate Events</h5>
             <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p>
-			
+
             <form>
-				<div class="row">
-					<div class="col-6">
-					<input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-					</div><div class="col-6">
-					<input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
-					</div>
-			  </div>
-			  <div class="sendbtn">
-              <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
-			  </div>
+              <div class="row">
+                <div class="col-6">
+                  <input type="txt" class="form-control" placeholder="Name" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+                </div>
+                <div class="col-6">
+                  <input type="email" class="form-control" placeholder="e-mail" id="exampleInputPassword1">
+                </div>
+              </div>
+              <div class="sendbtn">
+                <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
+              </div>
             </form>
           </div>
         </div>
@@ -267,12 +343,10 @@
           <span class="align-middle">
             <h3>About Francoise</h3>
           </span>
-          <p class="text-justify">Top producing and engaging Sales and Business Development Leader known for driving
-            new sales revenue growth while retaining key client accounts for sustained profitability. Proven record of
-            performance in Hospitality, Luxury Goods, Events and B2B Business Services industries. Established network
-            of contacts in the field on a global scale comprised of Executives, High Net Worth Individuals, VIPs, and
-            Celebrities. Works well with staff at all levels to include executive management, key decision makers,
-            internal/external customers, and vendors for positive business and sales outcomes.</p>
+          <p class="text-justify">
+		  My name is Francois WOLFF Belizaire.I was born the son of a music loving mathematician turened attorney, and undeniably, the best mom and chef ever.
+		  <br>While young, my family and I moved to 
+		  </p>
         </div>
         <div class="col-sm-6  p-0 m-0"><img src="img/About-Francoise.jpg" style="align-items: baseline"
             class="img-fluid">
@@ -280,11 +354,11 @@
       </div>
     </div>
   </section>
-  <section id="testimonials" class="cover-container">
+  <section id="testimonials" class="cover-container desk-testi">
     <div class="testimonials">
       <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="testTitle">
-          <h3>Testimonials</h3>
+          <h3>Reviews</h3>
         </div>
         <!--<div class="carousel-indicators">
 <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -391,26 +465,166 @@
       </div>
     </div>
   </section>
+  <section id="testimonials" class="cover-container w-100 h-100 vh-100 mobi-testi">
+    <div class="container text-center">
+      <h3>Reviews</h3>
+      <ul>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>François is very well versed in all the key elements that make for a successful luxury
+              business. Service, style and substance are all his forte’. François will no doubt offer the very best to
+              those who seek only the very best!.</p>
+            <h4>Robert Chavez</h4>
+            <h5>President &amp; CEO of Hermes Americas</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">              
+            <p>"François is the real deal. He lives and breathes luxury, down to every last detail, doing so
+              in the most approachable, connected and genuine manner. One of a kind. Mad love!".</p>
+            <h4>Alison Miller</h4>
+            <h5>Reel Estate Partners, Founder | Partner, former SVP Group Publisher of LA Confidential, Niche Media + GrenGale Publishing</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">              
+            <p>I met François approximately 8 years ago in NYC, and overtime I have watched him continue to
+              grow and expand a network of influential business men and women globally.  He is incredibly hard
+              working and looks to resolve problems, not just point out issues.
+              My understanding of François' business acumen spans from NYC to the Hamptons at numerous luxury
+              branded establishments for which he was an integral portion of the management team..</p>
+            <h4>Dan Bythewood Jr.</h4>
+            <h5>President and Managing Partner, La Cité Development, </h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>I have known François for over 18 years. He is a kind, generous, honest and conscientious
+              individual  and goes out of his way to help everyone he comes across on a daily basis. He has
+              genuine interest in selflessly connecting people to further their goals using his immense
+              network.</p>
+            <h4>Syed Hasan</h4>
+            <h5>President, Springer International.</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>"I have known François personally and professionally for well over a decade. His elegance,
+              dedication and professionalism are complemented by an engaging and giving personality. He is
+              very well suited to serve as a brand ambassador at the highest level and across cultures. I am
+              honored to endorse him on many levels."
+            </p>
+            <h4>RuthAnne Dreisbach</h4>
+            <h5>Chief Executive Officer, Dreisbach Group.</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>Knowing François Belizaire is a true joy! He is kind, keen, professional and authentic. I have
+              enjoyed discovering the talented brands that he collaborates with since I first met him at
+              Hermes.
+              François always keeps me updated on his clients' events and I feel his attention to details is
+              what sets him apart. Francois is truly the best addition to any company for brand awareness.</p>
+            <h4>Frederica Monaco</h4>
+            <h5>Founder + CEO, Frederica Monaco Interior Design</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>Watching François over the years has been a joy to observe. He works diligently to make sure
+              his high end customers are taken care of. I have seen him handle international brands with such
+              care and orchestrate events that are not only elegant but that are timely and productive.</p>
+            <h4>Phoenix K. Jackson</h4>
+            <h5>Founder &amp; Chief Communications Officer of the Phoenix Effect</h5>
+          </a>
+        </li>
+        <li>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#testiMobileModal">
+            <p>François puts a lot of time, passion, and attention to detail into all the projects he takes
+              on, focusing on delivering quality work. His natural ability for connecting with people and strategically forming collaborations within
+              his network are truly a gift, and what sets François apart from the rest. </p>
+            <h4>Salwa Owens</h4>
+            <h5>Chief Executive Creator and Founder</h5>
+          </a>
+        </li>        
+      </ul>
+      <div class="modal fade servModal" id="testiMobileModal" tabindex="-1" aria-labelledby="testiMobileModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-fullwidth">
+        <div class="modal-content">
+          <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc">
+          </a>
+          <div class="p-3 col-12 align-items-center">
+            <p>François is very well versed in all the key elements that make for a successful luxury business. Service, style and substance are all his forte’. François will no doubt offer the very best to those who seek only the very best!.</p>
+            <div class="testTitles">
+              <h4>Robert Chavez</h4>
+              <h5>President &amp; CEO of Hermes Americas</h5>
+            </div>
+            <div class="testTitleBtm">Testimonials</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
   <section id="contact" class="cover-container d-flex w-100 h-100 align-items-center vh-100">
     <!-- flex comlumn -->
-    <div class="container-fluid">
-      <div class="row">
+
+    <div class="container">
+      <div class="row contactWrp">
+
         <div class="d-flex col-xl-8 col-sm-6 col-md-7 align-items-center p-5">
-          <form>
-            <input type="text" class="form-control" placeholder="Your Name" id="exampleInputEmail1"
-              aria-describedby="emailHelp">
-            <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-            <input type="email" class="form-control" placeholder="E-mail" id="exampleInputPassword1">
-            <input type="text" class="form-control" placeholder="Your Enquire" id="yourEnquire">
-            <button type="submit" class="btn btn-send">Send<i class="fas fa-long-arrow-alt-right"></i></button>
+			<div class="row">
+				<div class="col-12">
+				 <h3>register for private client services with wolff</h3>
+				 </div>
+				 <div class="col-12">
+					 <form>
+
+            <div>
+             
+              <div class="col-12">
+                <label>First Name</label>
+                <input type="text" class="form-control" placeholder="(required)" id="exampleInputEmail1"
+                  aria-describedby="emailHelp">
+              </div>
+
+
+              <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+
+              <div class="col-12">
+                <label>Last Name</label>
+                <input type="email" class="form-control" placeholder="(required)" id="exampleInputPassword1">
+              </div>
+
+              <div class="col-12">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="(required)" id="yourEnquire">
+              </div>
+
+
+              <div class="col-12">
+                <label>Mobile</label>
+                <input type="tel" class="form-control" placeholder="(required)" id="yourEnquire">
+              </div>
+              <div class="sendbtn">
+                <button type="submit" class="btn btn-send"> </button>
+              </div>
+            </div>
           </form>
-        </div>
-        <div class="d-flex col-xl-4 col-sm-6 col-md-5 vh-100 p-5 sideContact" data-aos="fade-left" data-offset="600">
+        
+				 </div>
+			</div>
+         </div>
+        <div class="d-flex col-xl-4 col-sm-6 col-md-5 vh-100 p-5" data-aos="fade-left" data-offset="600">
           <div class=" d-flex align-items-center ">
             <div class="content">
-              <h1 class="h3 ">Contact</h1>
-              <p>Contact me to take the first steps into a new tech and luxury world.</p>
-              <p class="pt-3 pb-3"> Also dont forget to get social with me in linkedin or instagram. </p>
+
+              <div class="h2">See.</br>
+                Learn.</br>
+                Share.</br>
+                Do.</div>
+              <div class="h3">Connect</div>
               <a href="https://www.instagram.com/iamfrancoisb/" target="_blank"><img src="img/Ig-Icon.jpg"
                   class="iconContact-1"></a>
               <a href="https://www.linkedin.com/in/francoisbelizaire" target="_blank"> <img src="img/Ig-Link.jpg"
@@ -458,7 +672,14 @@
   //     'animation-name': 'none'
   //   }).removeClass('animated');
   //   wow.addBox(this);
-  // }).scrollSpy(); </script>
+  // }).scrollSpy(); 
+  $( ".sendclick" ).click(function() { 
+    $(this).parents('.modal-content').find('form').hide();
+    $(this).parents('.modal-content').find('.thankyouWrp').show();
+});
+  
+  
+  </script>
 </body>
 
 </html>
