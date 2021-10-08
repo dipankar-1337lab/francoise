@@ -136,7 +136,7 @@
               </button>
 
               <!-- Button trigger modal -->
-              <a href="#" class="btn moreInfoBtn" data-bs-toggle="modal" data-bs-target="#b2bForm">
+              <a href="#" class="btn moreInfoBtn" data-bs-toggle="modal" data-bs-target="#b2cForm">
                 INQUIRY
               </a>
             </div>
@@ -223,10 +223,78 @@
                   <label for="exampleInputPassword1 " class="desk-testi">Select Your Area of interest: </label>
                   <div class="selectBox">
                     <select class="form-control">
-                      <option>Select your area of interest</option>
-                      <option>Option1</option>
-                      <option>Option2</option>
-                      <option>Option3</option>
+                      <option>Please Select</option>
+                      <option>Mobile Applications</option>
+                      <option>IOT</option>
+                      <option>Web Development</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12 pt-3">
+                  <label for="exampleInputPassword1">Please share any additional regarding your interests: </label>
+                  <textarea class="form-control textarea" col="8" rows="4"></textarea>
+                </div>
+              </div>
+
+              <div class="sendbtn sendclick">
+                <button type="submit" class="btn btn-send"> </button>
+              </div>
+            </form>
+
+
+            <div class="thankyouWrp" style="display: none;">
+              <h2>Thank you for your inquiry!</h2>
+              <p>You will receive an email response within 48 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade servModal" id="b2cForm" tabindex="-1" aria-labelledby="b2cFormLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+    
+        <div class="modal-content">
+          <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc" /> </a>
+          
+          <div class="p-4 col-12 align-items-center">
+            <!-- <h5>Get More Information</h5>
+            <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p> -->
+
+            <form>
+              <div class="row">
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">First Name:</label>
+                  <input type="text" class="form-control" placeholder="(required)"  name="firstName" aria-describedby="emailHelp">
+                </div>
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">Last Name:</label>
+                  <input type="text" class="form-control" placeholder="(required)"  name="lastName">
+                </div>
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">Company Name:</label>
+                  <input type="text" class="form-control" placeholder="(required)" name="companyName" aria-describedby="emailHelp" required>
+                </div>
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">Job Title: </label>
+                  <input type="text" class="form-control" placeholder="(required)"  name="jobtitle" required>
+                </div>
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">Email: </label>
+                  <input type="email" class="form-control" placeholder="(required)"  name="email" required>
+                </div>
+                <div class="col-6 p-3">
+                  <label for="exampleInputPassword1">Phone Number:</label>
+                  <input type="text" class="form-control" placeholder="(required)"  name="number" required>
+                </div>
+                <div class="col-12 p-3">
+                  <label for="exampleInputPassword1 " class="desk-testi">Select Your Area of interest: </label>
+                  <div class="selectBox">
+                    <select class="form-control">
+                      <option>Please Select</option>
+                      <option>Curated Client Experiences</option>
+                      <option>Ambassador | MC |Moderator</option>
+                      <option>Events</option>
                     </select>
                   </div>
                 </div>
