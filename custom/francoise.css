@@ -65,6 +65,7 @@ button {
 }
 
 
+
 .client_services .learnmore {
   margin-top: 40px !important;
 }
@@ -98,8 +99,8 @@ button {
 }
 
 #clientservices .b2b .title {
-    font-size: 30px;
-    font-family: 'PT Serif';
+  font-size: 30px;
+   font-family: 'PT Serif';
     font-weight: bold;
   margin-bottom: 8%;
 }
@@ -110,6 +111,8 @@ button {
   font-weight: bold;
 }
 
+
+
 #clientservices .b2b p {
   font-size: 24px;
   font-family: 'PT Serif';
@@ -117,20 +120,20 @@ button {
 }
 
 #clientservices .b2c-collapse.open {
- /* background: url('../img/b2c_background.jpeg') center !important;*/
+  /*background: url('../img/b2c_background.jpeg') center !important;*/
 }
 #clientservices .b2c .title {
      font-size: 30px;
     font-family: 'PT Serif';
     font-weight: bold;
 }
-
 #clientservices .b2c .subtitle {
     font-size: 22px;
     font-family: 'MONTSERRAT';
     font-weight: 600;
     margin: 2% 0;
 }
+
 #clientservices .b2c h3 {
   margin-bottom: 50px;
 }
@@ -140,13 +143,18 @@ button {
 }
 
 #clientservices .b2c li {
-      font-size: 16px;
+   font-size: 16px;
     font-family: 'Montserrat';
     margin-bottom: 10px;
     text-transform: uppercase;
-
 }
-
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0px 0;
+}
 #about h3 {
   font-size: 50px;
 }
@@ -502,14 +510,56 @@ form {
   max-width: 70%;
 }
 
-.modal.show .modal-dialog.modal-fullwidth{width: 100vw;height: 100vh;max-width: 100%;margin: 0;}
-.modal.show .modal-dialog.modal-fullwidth .modal-content{border-radius:0; height:100%; display:flex;align-items:center;justify-content:center; padding: 0 5%;}
-.testTitleBtm{position: absolute;bottom: 5%;left: 50%;transform: translate(-50%);color: #434343;text-transform: uppercase;font-size: 15px;}
-.testTitles{position: absolute;bottom: calc(5% + 30px);left: 50%;transform: translate(-50%); width: 100%;}
-.testTitles h4{font-size:calc(1rem + .3vw) ; font-weight: 600;} 
-.testTitles h5{font-size: 0.95rem;}
 
-.modal.show .modal-dialog.modal-fullwidth .btn-close{right: 7%;}
+
+.modal.show .modal-dialog.modal-fullwidth {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+}
+
+.modal.show .modal-dialog.modal-fullwidth .modal-content {
+  border-radius: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+
+
+.testTitleBtm {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #434343;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.testTitles {
+  position: absolute;
+  bottom: calc(5% + 30px);
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+.testTitles h4 {
+  font-size: calc(1rem + .3vw);
+  font-weight: 600;
+}
+
+.testTitles h5 {
+  font-size: 0.95rem;
+}
+
+.modal.show .modal-dialog.modal-fullwidth .btn-close {
+  right: 7%;
+}
 
 .cover-container {
   align-items: center;
@@ -543,16 +593,46 @@ form {
 #testimonials .carousel-item .carousel-caption {
   background: #fff;
 }
-  
-.desk-testi{display: block;}
-.mobi-testi{display: none;}
 
-.mobi-testi h3{margin-top: 40px; margin-bottom: 30px;}
-.mobi-testi ul{margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 40px;}
-.mobi-testi ul li a{text-decoration: none; display: block;}
-.mobi-testi ul li h4{color: #121212;font-weight: bold;}
-.mobi-testi ul li h5{ color: #121212;}
-.mobi-testi ul li p{ display: none;}
+.desk-testi {
+  display: block;
+}
+
+.mobi-testi {
+  display: none;
+}
+
+.mobi-testi h3 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.mobi-testi ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.mobi-testi ul li a {
+  text-decoration: none;
+  display: block;
+}
+
+.mobi-testi ul li h4 {
+  color: #121212;
+  font-weight: bold;
+}
+
+.mobi-testi ul li h5 {
+  color: #121212;
+}
+
+.mobi-testi ul li p {
+  display: none;
+}
 
 #testimonials .carousel-caption {
   top: 15%;
@@ -793,13 +873,15 @@ select {
   flex-direction: column;
   padding: 20vh 0;
 }
-.thankyouWrp h2{
-  font-family: 'PT Serif'; 
+
+.thankyouWrp h2 {
+  font-family: 'PT Serif';
   font-style: italic;
   margin-bottom: 2rem;
 }
-.thankyouWrp p{
-  font-family: 'PT Serif'; 
+
+.thankyouWrp p {
+  font-family: 'PT Serif';
   font-style: italic;
   margin-bottom: 2rem;
 }
@@ -818,8 +900,14 @@ select {
   .form-control {
     margin: 1em 0em;
   }
-  .desk-testi{display: none;}
-  .mobi-testi{display: block;}
+
+  .desk-testi {
+    display: none;
+  }
+
+  .mobi-testi {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -866,9 +954,11 @@ select {
   }
 
   .client_services .learnmore h5 {
-    font-size: 16px;
+    font-size: 20px;
   }
-
+.client_services .learnmore .sertitle {
+    font-size: 17px;
+}
   .learnmore div>span {
     font-size: 40px !important;
   }
@@ -895,6 +985,7 @@ select {
   .carousel-control-next-icon:after {
     font-size: 30px;
   }
+
   #testimonials h3 {
     margin-top: 60px;
   }
@@ -928,9 +1019,10 @@ select {
   /*.b2b-collapse.b2b .container-fluid > .row > .d-flex {padding:6rem 1.3rem 3rem 1.3rem !important}*/
   #clientservices .content {
     position: relative;
-    margin-top: 35%;
+    margin-top: 5%;
   }
 }
+
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1061,3 +1153,120 @@ select {
 
 
 @media (min-width: 1200px) {}
+
+@media screen and (max-width: 420px) {
+  #clientservices.cover-container {
+    padding-top: 25vh;
+  }
+
+  .client_services ul li {
+
+       font-size: 26px;
+    font-family: 'PT Serif';
+    font-weight: bold;
+
+  }
+
+  .servModal .form-control.textarea {
+    padding: 10px;
+    height: 90px;
+  }
+
+  #clientservices .b2b .subtitle {
+    font-size: 25px;
+    margin: 20px 0 15px;
+  }
+
+  #clientservices .b2b p {
+    font-size: 14px;
+  }
+
+  #clientservices .b2b p br {
+    display: none;
+  }
+
+  #clientservices .b2b .content button {
+        left: -25%;
+    top: -12%;
+  }
+	#clientservices .b2c .content button {
+        left: -28%;
+    top: -10%;
+}
+#clientservices .b2c .title {
+    font-size: 25px;
+}
+#clientservices .b2b .title {
+    font-size: 25px;
+}
+#clientservices .b2c .subtitle {
+    font-size: 16px;
+    font-family: 'MONTSERRAT';
+    font-weight: 600;
+    margin: 11% 0;
+}
+#clientservices .b2c li {
+    font-size: 14px;
+}
+  .modal.show .modal-dialog {
+
+    max-width: 100%;
+  }
+
+  .modal.show .modal-dialog .col-6 {
+    width: 100%;
+  }
+
+  .modal.show .modal-dialog .p-5 {
+    padding: 2rem !important;
+  }
+
+  .servModal .btn-close {
+    right: 7%;
+  }
+
+  .modal label {
+    font-size: 20px;
+  }
+
+  .contactWrp h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+
+  .contactWrp label {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+
+
+  .contactWrp .form-control {
+    font-size: 18px;
+  }
+
+  .contactWrp .p-5 {
+    padding: 2rem !important;
+  }
+
+  .contactWrp .d-flex {
+    display: table !important;
+    margin: auto;
+  }
+
+
+  .contactWrp .h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
+
+  .contactWrp .h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .contactWrp .content img {
+    max-width: 50px;
+  }
+}
