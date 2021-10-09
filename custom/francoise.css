@@ -1083,7 +1083,11 @@ select {
 	}
 }
 
-
+@media (min-width: 576px) {
+  #sticky {
+    background-size: contain;
+  }
+}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .slogan {
