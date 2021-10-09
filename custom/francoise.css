@@ -1118,7 +1118,7 @@ select {
 .modal label {
    
     font-size: 18px;
-	line-height: 37px;
+	line-height: 33px;
 }
 .client_services .actionbutton {
     margin:0;
@@ -1203,7 +1203,7 @@ input.form-control {
 .modal label {
    
     font-size: 18px;
-	line-height: 35px;
+	line-height: 33px;
 }
 .client_services .actionbutton {
     margin:0;
@@ -1350,7 +1350,7 @@ input.form-control {
   .modal label {
     font-size: 16px;
     float: left;
-	line-height: 37PX;
+	line-height: 35PX;
   }
 
 
