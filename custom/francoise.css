@@ -1344,12 +1344,12 @@ input.form-control {
   .servModal .btn-close {
     right: 7%;
 	z-index: 1;
-	line-height: 30px;
   }
 
   .modal label {
     font-size: 16px;
     float: left;
+	line-height: 35PX;
   }
 
 
