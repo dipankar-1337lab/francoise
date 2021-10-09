@@ -1260,7 +1260,9 @@ input.form-control {
     top: -5%;
 
   }
-
+#sticky {
+    background-size: cover;
+}
   #about h3 {
     margin-top: 60px;
     font-size: 30px;
