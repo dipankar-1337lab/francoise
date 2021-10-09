@@ -939,6 +939,9 @@ select {
   .mobi-testi {
     display: block;
   }
+  #mobreview.vh-100 {
+    height: auto !important;
+}
 }
 
 @media screen and (max-width: 576px) {
@@ -1215,6 +1218,7 @@ select {
 #about.vh-100 {
     height: auto !important;
 }
+
 #contact.vh-100 {
     height: auto !important;
 }
