@@ -29,7 +29,7 @@ button {
 }
 
 .nav-button {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 /*****************************   HOME ***************************************/
@@ -945,7 +945,9 @@ select {
   }
 
   .nav-button {
-    margin-top: -18px;
+   margin-top: -18px;
+    margin-left: -25px;
+    z-index: 9;
   }
 
   .nav-button .navbar-toggler-icon {
@@ -1342,6 +1344,7 @@ input.form-control {
   .servModal .btn-close {
     right: 7%;
 	z-index: 1;
+	line-height: 30px;
   }
 
   .modal label {
