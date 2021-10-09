@@ -1007,9 +1007,9 @@ select {
 }
 #about .aboutimg img{
 	    align-items: baseline;
-    max-width: 112%;
+    max-width: 100%;
     /* width: 800px; */
-    margin-left: -24px;
+    margin-left: 0px;
 }
 #about .aboutmain{
 	margin-top: 40px;
