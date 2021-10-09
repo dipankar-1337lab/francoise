@@ -1118,7 +1118,7 @@ select {
 .modal label {
    
     font-size: 18px;
-  
+	line-height: 37px;
 }
 .client_services .actionbutton {
     margin:0;
@@ -1179,19 +1179,20 @@ select {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .slogan {
 
-    color: #000000;
+       text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
     top: 80% !important;
   }
 
   .nav-button {
     margin-top: -25px;
+    margin-left: -25px;
   }
 
 #about.vh-100 {
-    height: 153vh!important;
+    height: auto !important;
 }
 #contact.vh-100 {
-    height: 170vh!important;
+    height: auto !important;
 }
 .contactWrp label {
 	float:left;
@@ -1349,7 +1350,7 @@ input.form-control {
   .modal label {
     font-size: 16px;
     float: left;
-	line-height: 35PX;
+	line-height: 37PX;
   }
 
 
