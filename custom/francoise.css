@@ -44,6 +44,7 @@ button {
   align-items: center;
   color: #fff;
   background: url(../img/francoise-belizaire-home.jpg) center top no-repeat;
+  background-size: cover;
 }
 
 .slogan {
@@ -1085,12 +1086,6 @@ select {
 	}
 }
 
-@media (min-width: 576px) {
-  #sticky {
-    background-size: contain;
-  }
-}
-
 @media (min-width: 411px) {
 	.client_services .actionbutton {
     margin-top: 197px;
@@ -1101,7 +1096,11 @@ select {
     margin-bottom: 30px;
 	}
 }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
+	#sticky {
+    background-size: contain;
+  }
   .slogan {
 
     text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
