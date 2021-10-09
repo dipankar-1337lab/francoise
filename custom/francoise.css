@@ -1186,6 +1186,16 @@ select {
 }
 
 
+@media (min-width: 411px) {
+	.client_services .actionbutton {
+    margin-top: 260px;
+    margin-bottom: 44px;
+	}
+	.mobi-testi h3 {
+    margin-top: 77px;
+    margin-bottom: 30px;
+	}
+}
 @media (min-width: 768px) and (max-width: 991.98px) {
   .slogan {
 
@@ -1283,7 +1293,9 @@ input.form-control {
        text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
     top: 80% !important;
   }
-
+#sticky {
+    background-size: cover;
+}
   .nav-button {
     margin-top: -25px;
     margin-left: -25px;
@@ -1368,7 +1380,17 @@ input.form-control {
 }
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+	
+	#sticky {
+    background-size: cover;
+	}
+	.client_services .actionbutton {
+   margin-top: 200px;
+    margin-bottom: -70px;
+	}
+
+}
 
 @media screen and (max-width: 420px) {
   #clientservices.cover-container {
