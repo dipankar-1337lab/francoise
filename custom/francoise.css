@@ -53,14 +53,15 @@ button {
   font-weight: bold;
   color: #fff;
   text-align: center;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .client_services ul li {
   margin: 20px;
   margin: 12px 20px;
   /* font-size: 58px; */
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 54px;
+  font-weight: normal;
   font-family: 'PT Serif';
 }
 
@@ -100,7 +101,7 @@ button {
 
 #clientservices .b2b .title {
   font-size: 30px;
-   font-family: 'PT Serif';
+   font-family: 'Montserrat';
     font-weight: bold;
   margin-bottom: 8%;
 }
@@ -118,13 +119,15 @@ button {
   font-family: 'PT Serif';
   font-style: italic;
 }
-
+.textareatitle{
+	margin-bottom: 15px;
+}
 #clientservices .b2c-collapse.open {
   /*background: url('../img/b2c_background.jpeg') center !important;*/
 }
 #clientservices .b2c .title {
      font-size: 30px;
-    font-family: 'PT Serif';
+    font-family: 'Montserrat';
     font-weight: bold;
 }
 #clientservices .b2c .subtitle {
@@ -252,7 +255,16 @@ button {
   opacity: 0.1;
 }
 
-
+.carouselicon{
+	   
+    transform: rotate(-180deg);
+	
+}
+.carouselicon img{
+	    width: 140px;	
+}.carouselricon img{
+	    width: 140px;	
+}
 .nav-underline .nav-link {
   padding-top: .75rem;
   padding-bottom: .75rem;
@@ -268,7 +280,12 @@ button {
   font-weight: 500;
   color: #343a40;
 }
-
+.navbar-toggler-icon i
+{
+	
+    font-size: 24px;
+    margin-left: -38px;
+}
 /***********************      CLIENT SERVICES      ************************/
 
 .black {
@@ -937,7 +954,7 @@ select {
   }
 
   .nav-button .navbar-toggler-icon .fa-3x {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .black {
@@ -956,7 +973,7 @@ select {
   }
 
   .offcanvas-collapse {
-    width: 50%;
+    width: 70%;
   }
 
   .nav-link {
@@ -979,14 +996,20 @@ select {
   }
 #about .aboutcont{
 	
-	z-index: 1;
-    margin-top: 86%;
+	    z-index: 1;
+    margin-top: 93%;
     background-color: black;
     color: white;
-    box-shadow: 0px -11px 4px #000;
+    box-shadow: 0px -51px 31px #000;
 }
 #about .aboutimg{
 	position: absolute;
+}
+#about .aboutimg img{
+	    align-items: baseline;
+    max-width: 112%;
+    /* width: 800px; */
+    margin-left: -24px;
 }
 #about .aboutmain{
 	margin-top: 40px;
@@ -1003,6 +1026,7 @@ select {
 
   #about p {
     margin-top: 20px;
+	    padding: 0 10px;
   }
 
   .carousel-control-prev-icon:after,
@@ -1033,7 +1057,10 @@ select {
   .cover-container {
     overflow: hidden;
   }
-
+.abouttitle{
+	    text-align: center;
+    z-index: 1;
+}
   .b2c-collapse .b2c>.row,
   .b2b-collapse.b2b .container-fluid>.row {
     margin-left: 0 !important
@@ -1043,7 +1070,7 @@ select {
   /*.b2b-collapse.b2b .container-fluid > .row > .d-flex {padding:6rem 1.3rem 3rem 1.3rem !important}*/
   #clientservices .content {
     position: relative;
-    margin-top: 5%;
+    margin: 12% 0;
   }
   
   .b2b .moreInfoBtn {
@@ -1059,7 +1086,7 @@ select {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .slogan {
 
-    color: #000000;
+    text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
     top: 80% !important;
   }
 
@@ -1067,13 +1094,17 @@ select {
     margin-top: -25px;
   }
 #testimonials.vh-100 {
-   height: 251vh!important;
+   height: auto !important;
+}
+.contactright{
+	    margin-top: 60px;
+    z-index: 1;
 }
 #about.vh-100 {
-   height: 231vh!important;
+   height: auto !important;
 }
 #contact.vh-100 {
-    height: 170vh!important;
+    height: auto !important;
 }
   #about.cover-container {
     margin-top: 227px;
