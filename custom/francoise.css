@@ -1271,7 +1271,95 @@ input.form-control {
 }
 
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+  .slogan {
+
+       text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
+    top: 80% !important;
+  }
+
+  .nav-button {
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+.abouttitle {
+    margin-top: 15px;
+}
+#about.vh-100 {
+    height: auto !important;
+}
+#contact.vh-100 {
+    height: auto !important;
+}
+.contactWrp label {
+	float:left;
+}
+input.form-control {
+   width: 60% !important;
+}
+.modal label {
+   
+    font-size: 18px;
+	line-height: 33px;
+}
+.client_services .actionbutton {
+    margin:0;
+}
+  .client_services .learnmore h5 {
+    margin-top: 14px !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .modal.show .modal-dialog {
+        margin: 0;
+    max-width: 100%;
+}
+#clientservices .b2b .content button {
+  
+    top: -43px;
+   
+    left: 100%;
+}
+  .client_services ul li {
+    margin: 20px;
+    margin: 5px 20px;
+    font-size: 30px;
+  }
+
+  #clientservices .content button {
+
+    left: -68px;
+    top: -62px;
+
+  }
+
+  #clientservices .b2c .content button {
+
+    left: 100%;
+    top: -5%;
+
+  }
+
+  #about h3 {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  #about p {
+    margin-top: 20px;
+  }
+
+
+  #testimonials.cover-container {
+    margin-top: 130px;
+  }
+
+  #testimonials .carousel-caption {
+    top: 35%;
+  }
+	
+}
 
 
 @media (min-width: 1200px) {}
