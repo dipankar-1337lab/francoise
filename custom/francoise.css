@@ -1203,7 +1203,7 @@ input.form-control {
 .modal label {
    
     font-size: 18px;
-  
+	line-height: 35px;
 }
 .client_services .actionbutton {
     margin:0;
