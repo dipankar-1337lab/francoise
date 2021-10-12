@@ -206,7 +206,7 @@
           <div class="row align-items-middle">
             <div class="col-3 d-inline-flex align-items-middle justify-content-center">
               <button type="button" id="rightMenu" aria-label="Toggle navigation">
-                <h5>B2B</h5>
+                <h3>B2B</h3>
               </button>
             </div>
             <div class="col-6 d-inline-flex align-items-middle justify-content-center"><span class="learnmore-center">
@@ -214,7 +214,7 @@
               </span></div>
             <div class="col-3 d-inline-flex align-items-middle justify-content-center">
               <button type="button" id="leftMenu" aria-label="Toggle navigation">
-                <h5>B2C</h5>
+                <h3>B2C</h3>
               </button>
             </div>
           </div>
@@ -346,22 +346,35 @@
                 </div>
               </div>
 
-              <div class="sendbtn sendclick">
-                <button type="submit" class="btn btn-send"> </button>
+              <div class="sendbtn ">
+                <button type="button" class="btn btn-send" onclick="$('#b2cForm').modal('hide');" data-bs-toggle="modal" data-bs-target="#thankYou" data-dismiss="modal"> </button>
               </div>
             </form>
 
 
-            <div class="thankyouWrp" style="display: none;">
-              <h2>Thank you for your inquiry!</h2>
-              <p>You will receive an email response within 48 hours.</p>
-            </div>
+           
           </div>
         </div>
       </div>
     </div>
     <!-- Modal -->
-  
+   <div class="modal fade thankyouModal" id="thankYou" tabindex="-1" aria-labelledby="b2cFormLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+    
+        <div class="modal-content">
+          
+          
+          <div class="p-4 col-12 align-items-center">
+            <div class="thankyouWrp" >
+              <h2>Thank you for your inquiry!</h2>
+              <p>You will receive an email response within 48 hours.</p>
+			  <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc" /> </a>
+            </div>
+			
+          </div>
+        </div>
+      </div>
+    </div>
    
   
   </section>

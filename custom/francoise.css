@@ -66,7 +66,7 @@ button {
   margin: 20px;
   margin: 12px 20px;
   /* font-size: 58px; */
-  font-size: 54px;
+  font-size: 48px;
   font-weight: normal;
   font-family: 'PT Serif';
 }
@@ -97,7 +97,6 @@ button {
   /* margin-top: 25px; */
   font-size: 35px;
   font-weight: 600;
-  font-family: 'Montserrat';
   font-size: 30px;
 }
 
@@ -507,7 +506,7 @@ form {
 }
 
 .navbar-brand.logoSmall {
-  font-size: 2em;
+  /*font-size: 2em;*/
 }
 
 #clientservices .b2b .content button {
@@ -552,7 +551,7 @@ form {
 
 .modal.show .modal-dialog {
   transform: none;
-  max-width: 70%;
+  max-width: 85%;
 }
 
 
@@ -749,7 +748,12 @@ input.form-control {
   outline: none;
   margin: 15px 0;
 }
-
+.thankyouModal .btn-close {
+    /* position: absolute; */
+    /* right: 3%; */
+    /* top: 10px; */
+    margin: 25px auto;
+}
 
 select option:checked {
   background: #ff9500 -webkit-linear-gradient(bottom, #ff9500 0%, #ff9500 100%);
@@ -1255,9 +1259,12 @@ input.form-control {
     font-size: 18px;
 	line-height: 33px;
 }
+.client_services {
+	    padding: 30vh 0;
+}
 .client_services .actionbutton {
-        margin-top: 307px;
-    margin-bottom: -211px;
+        /* margin-top: 307px;
+    margin-bottom: -211px; */
 }
   .client_services .learnmore h5 {
     margin-top: 14px !important;
@@ -1319,6 +1326,15 @@ input.form-control {
 	.client_services .actionbutton { 
     margin-top: 0px;
    margin-bottom: 50px;
+	}
+	.client_services {
+	    padding: 10vh 0;
+	}
+	#testimonialsCarousel{
+		 padding: 30vh 0;
+	}
+	.carousel-inner{
+		    overflow: inherit;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1441,7 +1457,7 @@ input.form-control {
 
 @media screen and (max-width: 420px) {
   #clientservices.cover-container {
-    padding-top: 30vh;
+    padding-top: 16vh;
   }
 
   .client_services ul li {
@@ -1479,10 +1495,10 @@ input.form-control {
     top: -7%;
 }
 #clientservices .b2c .title {
-    font-size: 25px;
+   /*  font-size: 25px; */
 }
 #clientservices .b2b .title {
-    font-size: 25px;
+   /*  font-size: 25px; */
 }
 #clientservices .b2c .subtitle {
     font-size: 16px;
