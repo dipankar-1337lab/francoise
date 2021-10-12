@@ -115,7 +115,10 @@ button {
   font-family: 'pt';
   font-weight: bold;
 }
-
+.client_services {
+    padding: 0;
+   
+}
 
 
 #clientservices .b2b p {
@@ -212,6 +215,7 @@ button {
 .nav-item {
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Montserrat';
 }
 
 /*menu element*/
@@ -1463,7 +1467,7 @@ input.form-control {
 
        font-size: 26px;
     font-family: 'PT Serif';
-    font-weight: bold;
+    /* font-weight: bold; */
 
   }
 
