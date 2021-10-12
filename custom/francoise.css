@@ -942,6 +942,7 @@ select {
 @media screen and (max-width: 1024px) {
   #testimonials .carousel-item {
     min-width: 100%;
+	min-height: 250px;
   }
 
   .btn-send {
@@ -1333,9 +1334,7 @@ input.form-control {
 	#testimonialsCarousel{
 		 padding: 30vh 0;
 	}
-	.carousel-inner{
-		    overflow: inherit;
-	}
+	
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
