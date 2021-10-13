@@ -79,7 +79,7 @@ $(window).scroll(function () {
 var testModalLink = $('.mobi-testi').find('ul li a')
 console.log(testModalLink)
 
-$('.mobi-testi').find('ul li a').click(function(e){
+$('#mobreview').find('ul li a').click(function(e){
   var testContent = $(this).find('p').html();
   var testHead = $(this).find('h4').html();
   var testSubtHead = $(this).find('h5').html();
