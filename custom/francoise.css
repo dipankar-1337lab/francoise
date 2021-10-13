@@ -518,7 +518,7 @@ form {
 
 #clientservices .b2b .content button {
   position: absolute;
-  top: -75px;
+  top: -22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1296,7 +1296,7 @@ input.form-control {
 }
 #clientservices .b2b .content button {
   
-    top: -43px;
+    top: -22px;
    
     left: 100%;
 }
@@ -1403,7 +1403,7 @@ input.form-control {
 }
 #clientservices .b2b .content button {
   
-    top: -43px;
+    top: -22px;
    
     left: 100%;
 }
@@ -1454,7 +1454,31 @@ input.form-control {
   }
 	
 }
-
+@media (min-width: 1100px) {
+	.client_services {
+    padding: 0vh 0;
+	}
+	.client_services .actionbutton {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+	#sticky {
+    background-size: cover;
+	}
+	.client_services ul {
+    padding: 20vh 0;
+}
+	#testimonialsCarousel
+	{
+		    padding: 40vh 0px;
+	}
+	#contact.cover-container {
+    padding: 15vh 0;
+	}
+	.vh-100 {
+		height: auto !important;
+	}
+}
 
 @media (min-width: 1200px) {
 	
