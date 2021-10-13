@@ -124,7 +124,32 @@ $(document).ready(function(){
 
     if(required_err)
       return false;
-      
+
+    $.LoadingOverlay("show", {
+      image:"",
+      fontawesome : "fa fa-cog fa-spin"
+    });
+
+    $.ajax({
+      type: 'post',
+      url: 'http://35.174.88.27/francoise/email.php',
+      data: frm.serialize(),
+      success: function (data) {
+          $.LoadingOverlay("hide", true);
+          console.log('Submission was successful.');
+          console.log(data);
+          // frm.parents('.modal-content').find('form').hide();
+          frm.parents('.contactWrp').find('.thankyouWrp').show(function(){
+            $('#contactForm').modal('show');
+          });
+      },
+      error: function (data) {
+          $.LoadingOverlay("hide", true);
+          console.log('An error occurred.');
+          console.log(data);
+      },
+    });
+
   })
 
 
@@ -168,21 +193,28 @@ $(document).ready(function(){
     // }
     if(required_err)
       return false;
+
+    $.LoadingOverlay("show", {
+      image:"",
+      fontawesome : "fa fa-cog fa-spin"
+    });
   
     $.ajax({
       type: 'post',
       url: 'http://35.174.88.27/francoise/email.php',
       data: frm.serialize(),
       success: function (data) {
+        $.LoadingOverlay("hide", true);
           console.log('Submission was successful.');
           console.log(data);
           frm.parents('.modal-content').find('form').hide();
           frm.parents('.modal-content').find('.thankyouWrp').show();
       },
       error: function (data) {
+        $.LoadingOverlay("hide", true);
           console.log('An error occurred.');
           console.log(data);
       },
-  });
+    });
   })
 })

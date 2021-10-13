@@ -84,23 +84,23 @@
             <div>             
               <div class="col-12">
                 <label>First Name</label>
-                <input type="text" name="firstName" class="form-control" placeholder="(required)">
+                <input type="text" name="firstName" class="form-control" placeholder="(required)" autocomplete="off">
               </div>
               <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
               <div class="col-12">
                 <label>Last Name</label>
-                <input type="text" name="lastName" class="form-control" placeholder="(required)">
+                <input type="text" name="lastName" class="form-control" placeholder="(required)"  autocomplete="off">
               </div>
 
               <div class="col-12">
                 <label>Email</label>
-                <input type="email" name="email" class="form-control" placeholder="(required)">
+                <input type="email" name="email" class="form-control" placeholder="(required)"  autocomplete="off">
               </div>
 
 
               <div class="col-12">
                 <label>Mobile</label>
-                <input type="tel" name="mobile" class="form-control" placeholder="(required)">
+                <input type="tel" name="mobile" class="form-control" placeholder="(required)"  autocomplete="off">
               </div>
               <input type="text" name="hp" class="hp" value="">
               <div class="sendbtn">
@@ -108,6 +108,19 @@
               </div>
             </div>
           </form>
+          
+          <div class="modal fade servModal" id="contactForm" tabindex="-1" aria-labelledby="contactFormLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="thankyouWrp" style="display: none;">
+                  <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc" /> </a>
+                  <h2>Thank you for your inquiry!</h2>
+                  <p>You will receive an email response within 48 hours.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="d-flex col-xl-4 col-sm-6 col-md-5 vh-100 pt-5 contactright" data-aos="fade-left" data-offset="600">
           <div class=" d-flex  ">
@@ -129,6 +142,7 @@
     </div> <!-- end container -->
   </section> <!-- Averiguar que tiene el bundle -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
   <script src="https://kit.fontawesome.com/34f0dcaedc.js" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="custom/francoise.js"></script>
