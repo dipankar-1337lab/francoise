@@ -139,9 +139,8 @@ $(document).ready(function(){
           console.log('Submission was successful.');
           console.log(data);
           // frm.parents('.modal-content').find('form').hide();
-          frm.parents('.contactWrp').find('.thankyouWrp').show(function(){
-            $('#contactForm').modal('show');
-          });
+          $('#thankYou').modal('show');
+          frm.trigger("reset");
       },
       error: function (data) {
           $.LoadingOverlay("hide", true);
@@ -207,8 +206,14 @@ $(document).ready(function(){
         $.LoadingOverlay("hide", true);
           console.log('Submission was successful.');
           console.log(data);
-          frm.parents('.modal-content').find('form').hide();
-          frm.parents('.modal-content').find('.thankyouWrp').show();
+          // frm.parents('.modal-content').find('form').hide();
+          // frm.parents('.modal-content').find('.thankyouWrp').show();
+          // frm.parents('.contactWrp').find('.thankyouWrp').show(function(){
+          //   $('#contactForm').modal('show');
+          // });
+          $('#b2bForm').modal('hide');
+          $('#thankYou').modal('show');
+          frm.trigger("reset");
       },
       error: function (data) {
         $.LoadingOverlay("hide", true);
