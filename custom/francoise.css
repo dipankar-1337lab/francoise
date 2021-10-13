@@ -971,13 +971,6 @@ select {
   .form-control {
     margin: 1em 0em;
   }
-
-  .desk-testi {
-    display: none;
-  }
-  .mobi-testi {
-    display: block;
-  }
   
   #mobreview.vh-100 {
     height: auto !important;
@@ -990,6 +983,13 @@ select {
     margin-right: 0;
   }
 
+  .desk-testi {
+    display: none;
+  }
+  .mobi-testi {
+    display: block;
+  }
+  
   .nav-button {
    margin-top: -18px;
     margin-left: -25px;
