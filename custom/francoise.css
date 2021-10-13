@@ -644,14 +644,6 @@ form {
   background: #fff;
 }
 
-.desk-testi {
-  display: block;
-}
-
-.mobi-testi {
-  display: none;
-}
-
 .mobi-testi h3 {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -964,13 +956,6 @@ select {
     margin: 1em 0em;
   }
 
-  .desk-testi {
-    display: none;
-  }
-
-  .mobi-testi {
-    display: block;
-  }
   #mobreview.vh-100 {
     height: auto !important;
 }
