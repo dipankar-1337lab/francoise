@@ -612,7 +612,7 @@ form {
 
 .testTitles {
   position: absolute;
-  bottom: calc(5% + 30px);
+  bottom: calc(5% + 35px);
   left: 50%;
   transform: translate(-50%);
   width: 100%;
@@ -1148,8 +1148,8 @@ select {
   
 	} */
 	#mobreview h3 {
-    margin-top: 77px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 	}
 	#contact.cover-container {
     padding: 2vh 0;
