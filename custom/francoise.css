@@ -82,6 +82,13 @@ a.nodecor {
   font-weight: normal;
   font-family: 'PT Serif';
 }
+
+.client_services {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
 /* 
 
 
@@ -99,6 +106,7 @@ a.nodecor {
 .client_services .actionbutton {
   /* margin-top: 150px; */
   margin-bottom: 60px;
+  /* width: 100%; */
 }
 
 .client_services .learnmore .sertitle {
@@ -1032,9 +1040,9 @@ select {
   }
 
   
-.client_services .learnmore .sertitle {
-   /* font-size: 17px;*/
-}
+/* .client_services .learnmore .sertitle {
+   font-size: 17px;
+} */
   .learnmore div>span {
     font-size: 40px !important;
   }
