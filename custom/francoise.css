@@ -35,6 +35,10 @@ button {
 	padding: 10vh 0;
 }
 
+a.button {
+  color:#000 !important;
+  text-decoration: none !important;
+}
 /*****************************   HOME ***************************************/
 
 #sticky {
@@ -369,7 +373,7 @@ button {
 }
 
 
-.b2c-collapse ul li {
+.b2c ul li {
   list-style-type: none;
 }
 
@@ -1513,9 +1517,9 @@ input.form-control {
     font-size: 14px;
   }
 
-  #clientservices .b2b p br {
+  /* #clientservices .b2b p br {
     display: none;
-  }
+  } */
 
   #clientservices .b2b .content button {
         left: 100%;
