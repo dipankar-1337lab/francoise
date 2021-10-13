@@ -532,7 +532,7 @@ form {
 }
 
 #contact.cover-container {
-  padding: 25vh 0;
+  padding: 10vh 0;
 }
 
 .navbar-brand.logo {
@@ -878,7 +878,7 @@ select {
 .sendbtn {
   /* Chrome/Opera/Safari */
   text-align: center;
-  margin: 70px 0;
+  margin: 25px 0;
 }
 
 .sendbtn button {
@@ -1160,7 +1160,7 @@ select {
     margin-bottom: 40px;
 	}
 	#contact.cover-container {
-    padding: 2vh 0;
+    padding: 6vh 0;
 	}
 }
 @media (min-width: 731px) {
