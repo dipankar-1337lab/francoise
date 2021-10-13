@@ -93,22 +93,96 @@ if(windowWidth < 767){
   $('.desk-testi').remove();
 }
 
-$("#contact_form").submit(function(e){
-  e.preventDefault();
-  frm = $(this);
-  $.ajax({
-    type: 'post',
-    url: 'http://35.174.88.27/francoise/email.php',
-    data: frm.serialize(),
-    success: function (data) {
-        console.log('Submission was successful.');
-        console.log(data);
-        frm.parents('.modal-content').find('form').hide();
-        frm.parents('.modal-content').find('.thankyouWrp').show();
-    },
-    error: function (data) {
-        console.log('An error occurred.');
-        console.log(data);
-    },
-});
+$(document).ready(function(){
+ 
+  $("#contact_form_contact").submit(function(e){
+    var required_err = false;
+    e.preventDefault();
+    frm = $(this);
+
+    if($('#contact_form_contact input[name=firstName]').val().trim() == ''){
+      $('#contact_form_contact input[name=firstName]').attr('placeholder','Please fill out this field');
+      $('#contact_form_contact input[name=firstName]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form_contact input[name=lastName]').val().trim() == ''){
+      $('#contact_form_contact input[name=lastName]').attr('placeholder','Please fill out this field');
+      $('#contact_form_contact input[name=lastName]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form_contact input[name=email]').val().trim() == ''){
+      $('#contact_form_contact input[name=email]').attr('placeholder','Please fill out this field');
+      $('#contact_form_contact input[name=email]').addClass('placeholder-err')
+      required_err = true;
+    }
+
+    if($('#contact_form_contact input[name=mobile]').val().trim() == ''){
+      $('#contact_form_contact input[name=mobile]').attr('placeholder','Please fill out this field');
+      $('#contact_form_contact input[name=mobile]').addClass('placeholder-err')
+      required_err = true;
+    }
+
+    if(required_err)
+      return false;
+      
+  })
+
+
+  $("#contact_form").submit(function(e){
+    var required_err = false;
+    e.preventDefault();
+    frm = $(this);
+    if($('#contact_form input[name=firstName]').val().trim() == ''){
+      $('#contact_form input[name=firstName]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=firstName]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form input[name=lastName]').val().trim() == ''){
+      $('#contact_form input[name=lastName]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=lastName]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form input[name=companyName]').val().trim() == ''){
+      $('#contact_form input[name=companyName]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=companyName]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form input[name=jobtitle]').val().trim() == ''){
+      $('#contact_form input[name=jobtitle]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=jobtitle]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form input[name=email]').val().trim() == ''){
+      $('#contact_form input[name=email]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=email]').addClass('placeholder-err')
+      required_err = true;
+    }
+    if($('#contact_form input[name=number]').val().trim() == ''){
+      $('#contact_form input[name=number]').attr('placeholder','Please fill out this field');
+      $('#contact_form input[name=number]').addClass('placeholder-err')
+      required_err = true;
+    }
+    // if($('#contact_form select[name=area_of_interest]').val().trim() == ''){
+    //   $('#contact_form select[name=area_of_interest]').attr('placeholder','Please fill out this field');
+    //   $('#contact_form select[name=area_of_interest]').addClass('placeholder-err')
+    // }
+    if(required_err)
+      return false;
+  
+    $.ajax({
+      type: 'post',
+      url: 'http://35.174.88.27/francoise/email.php',
+      data: frm.serialize(),
+      success: function (data) {
+          console.log('Submission was successful.');
+          console.log(data);
+          frm.parents('.modal-content').find('form').hide();
+          frm.parents('.modal-content').find('.thankyouWrp').show();
+      },
+      error: function (data) {
+          console.log('An error occurred.');
+          console.log(data);
+      },
+  });
+  })
 })
