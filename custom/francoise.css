@@ -46,6 +46,10 @@ a.nodecor {
 }
 
 .hp {display: none;}
+
+.placeholder-err::-webkit-input-placeholder, .placeholder-err::placeholder {
+  color: #ff0000
+}
 /*****************************   HOME ***************************************/
 
 #sticky {
