@@ -29,34 +29,34 @@ Array.prototype.forEach.call(closeMenuG, function (element) {
 
 ////// select service type ////
 
-(function () {
-  'use strict'
-  document.querySelector('#leftMenu').addEventListener('click', function () {
-    document.querySelector('.b2c-collapse').classList.toggle('open');
-    document.querySelector('.navbar-brand').classList('logoSmall')
-  })
-})();
+// (function () {
+//   'use strict'
+//   document.querySelector('#leftMenu').addEventListener('click', function () {
+//     document.querySelector('.b2c-collapse').classList.toggle('open');
+//     document.querySelector('.navbar-brand').classList('logoSmall')
+//   })
+// })();
 
-(function () {
-  'use strict'
-  document.querySelector('#rightMenu').addEventListener('click', function () {
-    document.querySelector('.b2b-collapse').classList.toggle('open')
-  })
-})();
+// (function () {
+//   'use strict'
+//   document.querySelector('#rightMenu').addEventListener('click', function () {
+//     document.querySelector('.b2b-collapse').classList.toggle('open')
+//   })
+// })();
 
 ////// close service type ////
-(function () {
-  'use strict'
-  document.querySelector('#closer').addEventListener('click', function () {
-    document.querySelector('.b2b-collapse').classList.remove('open')
-  })
-})();
-(function () {
-  'use strict'
-  document.querySelector('#closer2').addEventListener('click', function () {
-    document.querySelector('.b2c-collapse').classList.remove('open')
-  })
-})();
+// (function () {
+//   'use strict'
+//   document.querySelector('#closer').addEventListener('click', function () {
+//     document.querySelector('.b2b-collapse').classList.remove('open')
+//   })
+// })();
+// (function () {
+//   'use strict'
+//   document.querySelector('#closer2').addEventListener('click', function () {
+//     document.querySelector('.b2c-collapse').classList.remove('open')
+//   })
+// })();
 
 ////// Logo on Scroll //////
 $(window).scroll(function () {
@@ -92,3 +92,23 @@ var windowWidth = $(window).width();
 if(windowWidth < 767){
   $('.desk-testi').remove();
 }
+
+$("#contact_form").submit(function(e){
+  e.preventDefault();
+  frm = $(this);
+  $.ajax({
+    type: 'post',
+    url: 'http://35.174.88.27/francoise/email.php',
+    data: frm.serialize(),
+    success: function (data) {
+        console.log('Submission was successful.');
+        console.log(data);
+        frm.parents('.modal-content').find('form').hide();
+        frm.parents('.modal-content').find('.thankyouWrp').show();
+    },
+    error: function (data) {
+        console.log('An error occurred.');
+        console.log(data);
+    },
+});
+})

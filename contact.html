@@ -79,34 +79,31 @@
 		
         <div class="d-flex col-xl-8 col-sm-6 col-md-7  pt-5">
 
-          <form>
-
-            <div>
-             
+          <form name="contact_form" id="contact_form">
+            <input type="hidden" name="form" value="contact" />
+            <div>             
               <div class="col-12">
                 <label>First Name</label>
-                <input type="text" class="form-control" placeholder="(required)" required id="exampleInputEmail1"
+                <input type="text" name="firstName" class="form-control" placeholder="(required)" required id="exampleInputEmail1"
                   aria-describedby="emailHelp">
               </div>
-
-
               <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-
               <div class="col-12">
                 <label>Last Name</label>
-                <input type="text" class="form-control" placeholder="(required)" required id="exampleInputPassword1">
+                <input type="text" name="lastName" class="form-control" placeholder="(required)" required id="exampleInputPassword1">
               </div>
 
               <div class="col-12">
                 <label>Email</label>
-                <input type="email" class="form-control" placeholder="(required)" required id="yourEnquire">
+                <input type="email" name="email" class="form-control" placeholder="(required)" required id="yourEnquire">
               </div>
 
 
               <div class="col-12">
                 <label>Mobile</label>
-                <input type="tel" class="form-control" placeholder="(required)" id="yourEnquire">
+                <input type="tel" name="mobile" class="form-control" placeholder="(required)" id="yourEnquire">
               </div>
+              <input type="text" name="hp" class="hp" value="">
               <div class="sendbtn">
                 <button type="submit" class="btn btn-send"> </button>
               </div>

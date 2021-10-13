@@ -44,6 +44,9 @@ a.nodecor {
 .fixed-top {
   background-color: white;
 }
+
+.hp {display: none;}
+
 /*****************************   HOME ***************************************/
 
 #sticky {

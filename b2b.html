@@ -117,49 +117,50 @@
             <!-- <h5>Get More Information</h5>
             <p>lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text lorem ipsum text</p> -->
 
-            <form>
+            <form name="contact_form" id="contact_form" method="post">
+              <input type="hidden" name="form" value="b2b" />
               <div class="row">
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">First Name:</label>
-                  <input type="text" class="form-control" placeholder="(required)"  name="firstName" aria-describedby="emailHelp">
+                  <input type="text" class="form-control" placeholder="(required)"  name="firstName" autocomplete="off" required>
                 </div>
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">Last Name:</label>
-                  <input type="text" class="form-control" placeholder="(required)"  name="lastName">
+                  <input type="text" class="form-control" placeholder="(required)"  name="lastName" autocomplete="off" required>
                 </div>
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">Company Name:</label>
-                  <input type="text" class="form-control" placeholder="(required)" name="companyName" aria-describedby="emailHelp" required>
+                  <input type="text" class="form-control" placeholder="(required)" name="companyName" autocomplete="off" required>
                 </div>
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">Job Title: </label>
-                  <input type="text" class="form-control" placeholder="(required)"  name="jobtitle" required>
+                  <input type="text" class="form-control" placeholder="(required)"  name="jobtitle" autocomplete="off" required>
                 </div>
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">Email: </label>
-                  <input type="email" class="form-control" placeholder="(required)"  name="email" required>
+                  <input type="email" class="form-control" placeholder="(required)"  name="email" autocomplete="off" required>
                 </div>
                 <div class="col-6 p-3">
                   <label for="exampleInputPassword1">Phone Number:</label>
-                  <input type="text" class="form-control" placeholder="(required)"  name="number" required>
+                  <input type="text" class="form-control" placeholder="(required)"  name="number" autocomplete="off" required>
                 </div>
                 <div class="col-12 p-3">
                   <label for="exampleInputPassword1 " class="desk-testi">Select Your Area of interest: </label>
                   <div class="selectBox">
-                    <select class="form-control">
-                      <option>Select Your Area of interest:</option>
-                      <option>Mobile Applications</option>
-                      <option>IOT</option>
-                      <option>Web Development</option>
+                    <select class="form-control" name="area_of_interest" required>
+                      <option value="">Select Your Area of interest:</option>
+                      <option value="Mobile Applications">Mobile Applications</option>
+                      <option value="IOT">IOT</option>
+                      <option value="Web Development">Web Development</option>
                     </select>
                   </div>
                 </div>
                 <div class="col-12 pt-3">
                   <label for="exampleInputPassword1" class="textareatitle">Please share any additional regarding your interests: </label>
-                  <textarea class="form-control textarea" col="8" rows="4"></textarea>
+                  <textarea name="additional_interest" class="form-control textarea" col="8" rows="4"></textarea>
                 </div>
               </div>
-
+              <input type="text" name="hp" class="hp" value="">
               <div class="sendbtn sendclick">
                 <button type="submit" class="btn btn-send"> </button>
               </div>
@@ -233,10 +234,10 @@
   //   }).removeClass('animated');
   //   wow.addBox(this);
   // }).scrollSpy(); 
-  $( ".sendclick" ).click(function() { 
-    $(this).parents('.modal-content').find('form').hide();
-    $(this).parents('.modal-content').find('.thankyouWrp').show();
-});
+  // $( ".sendclick" ).click(function() { 
+  //   $(this).parents('.modal-content').find('form').hide();
+  //   $(this).parents('.modal-content').find('.thankyouWrp').show();
+  // });
   
   
   </script>
