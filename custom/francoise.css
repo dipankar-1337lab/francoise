@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: 'Trirong', serif;
+  font-family: 'PT Serif';
 }
 
 h1,
@@ -66,7 +66,7 @@ button {
   margin: 20px;
   margin: 12px 20px;
   /* font-size: 58px; */
-  font-size: 48px;
+  font-size: 30px;
   font-weight: normal;
   font-family: 'PT Serif';
 }
@@ -91,6 +91,8 @@ button {
 
 .client_services .learnmore .sertitle {
   font-size: 22px;
+      font-family: 'Montserrat';
+
 }
 
 .client_services .learnmore h5 {
@@ -849,7 +851,7 @@ select {
 .sendbtn {
   /* Chrome/Opera/Safari */
   text-align: center;
-  margin: 15px 0;
+  margin: 70px 0;
 }
 
 .sendbtn button {
@@ -919,9 +921,11 @@ select {
 }
 
 .contactWrp .sendbtn button {
-  background: url(../img/icoSendMobile.ioc);
-  width: 68px;
-  height: 46px;
+     background: url(../img/icoSendMobile.ioc);
+    width: 96px;
+    height: 68px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .thankyouWrp {
@@ -1127,8 +1131,16 @@ select {
     margin-top: 77px;
     margin-bottom: 30px;
 	}
+	#contact.cover-container {
+    padding: 2vh 0;
+	}
 }
-
+@media (min-width: 731px) {
+	
+	#contact.cover-container {
+    padding: 10vh 0;
+	}
+}
 @media (min-width: 576px) and (max-width: 767.98px) {
 	#sticky {
     background-size: contain;
@@ -1455,6 +1467,9 @@ input.form-control {
 	{
 		    padding: 40vh 0px;
 	}
+	#contact.cover-container {
+    padding: 15vh 0;
+	}
 
 }
 
@@ -1477,8 +1492,8 @@ input.form-control {
   }
 
   #clientservices .b2b .subtitle {
-    font-size: 25px;
-    margin: 20px 0 15px;
+    font-size: 20px;
+    margin: 10px 0 15px;
   }
 
   #clientservices .b2b p {
@@ -1504,7 +1519,7 @@ input.form-control {
    /*  font-size: 25px; */
 }
 #clientservices .b2c .subtitle {
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'MONTSERRAT';
     font-weight: 600;
     margin: 11% 0;
