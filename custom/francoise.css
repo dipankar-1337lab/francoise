@@ -137,7 +137,7 @@ a.nodecor {
 #clientservices .b2b .title {
   font-size: 30px;
    
-  /* margin-bottom: 15%; */
+  margin-bottom: 5%;
 }
 
 #clientservices .b2b .subtitle {
@@ -568,7 +568,7 @@ form {
 }
 
 .moreInfoBtn {
-  /* margin-top: 8%; */
+  margin-top: 5%;
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 600;
@@ -1528,9 +1528,9 @@ input.form-control {
 }
 
 @media screen and (max-width: 420px) {
-  #clientservices.cover-container {
+  /* #clientservices.cover-container {
     padding-top: 16vh;
-  }
+  } */
 
   .client_services ul li {
 
