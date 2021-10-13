@@ -40,6 +40,10 @@ a.nodecor {
   color:#000 !important;
   text-decoration: none !important;
 }
+
+.fixed-top {
+  background-color: white;
+}
 /*****************************   HOME ***************************************/
 
 #sticky {
@@ -181,7 +185,7 @@ a.nodecor {
   font-size: 14px;
 }
 .aboutcont{
-	margin-top: 51px;
+	/* margin-top: 51px; */
 	
 }
 #about .contact{
@@ -649,12 +653,19 @@ form {
   background: #fff;
 }
 
-.mobi-testi h3 {
+.desk-testi {
+  display: block;
+}
+.mobi-testi {
+  display: none;
+}
+
+#mobreview h3 {
   margin-top: 40px;
   margin-bottom: 30px;
 }
 
-.mobi-testi ul {
+#mobreview ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -663,21 +674,21 @@ form {
   gap: 40px;
 }
 
-.mobi-testi ul li a {
+#mobreview ul li a {
   text-decoration: none;
   display: block;
 }
 
-.mobi-testi ul li h4 {
+#mobreview ul li h4 {
   color: #121212;
   font-weight: bold;
 }
 
-.mobi-testi ul li h5 {
+#mobreview ul li h5 {
   color: #121212;
 }
 
-.mobi-testi ul li p {
+#mobreview ul li p {
   display: none;
 }
 
@@ -961,6 +972,13 @@ select {
     margin: 1em 0em;
   }
 
+  .desk-testi {
+    display: none;
+  }
+  .mobi-testi {
+    display: block;
+  }
+  
   #mobreview.vh-100 {
     height: auto !important;
 }
@@ -1119,7 +1137,7 @@ select {
     margin-top: 40%;
   
 	}
-	.mobi-testi h3 {
+	#mobreview h3 {
     margin-top: 77px;
     margin-bottom: 30px;
 	}
@@ -1163,9 +1181,9 @@ select {
 #contact.vh-100 {
     height: auto !important;
 }
-  #about.cover-container {
+  /* #about.cover-container {
     margin-top: 35%;
-  }
+  } */
 .contactWrp label {
 	float:left;
 }
@@ -1400,9 +1418,9 @@ input.form-control {
 .client_services ul{
 	padding: 18vh 0;
 }
-.aboutmain{
+/* .aboutmain{
 	    padding: 10vh 0;
-}
+} */
   .client_services ul li {
     margin: 20px;
     margin: 5px 20px;
