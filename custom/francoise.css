@@ -876,12 +876,12 @@ select {
 }
 
 .contactWrp h3 {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #212121;
   margin: 0 0 15px 0;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 600; */
 
 }
 
@@ -1470,7 +1470,9 @@ input.form-control {
 	#contact.cover-container {
     padding: 15vh 0;
 	}
-
+.vh-100 {
+    height: auto !important;
+}
 }
 
 @media screen and (max-width: 420px) {
