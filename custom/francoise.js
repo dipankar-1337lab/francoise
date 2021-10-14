@@ -93,7 +93,15 @@ if(windowWidth < 767){
   $('.desk-testi').remove();
 }
 
+function validatePhoneNumber(elementValue){
+  var phoneNumberPattern = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+  return phoneNumberPattern.test(elementValue);
+}
+
 $(document).ready(function(){
+
+  $('#contact_form input[name=number]').mask('(000) 000-0000');
+  $('#contact_form_contact input[name=mobile]').mask('(000) 000-0000');
  
   $("#contact_form_contact").submit(function(e){
     var required_err = false;
@@ -120,6 +128,15 @@ $(document).ready(function(){
       $('#contact_form_contact input[name=mobile]').attr('placeholder','Please fill out this field');
       $('#contact_form_contact input[name=mobile]').addClass('placeholder-err')
       required_err = true;
+    } else {
+      var phone_number = $('#contact_form_contact input[name=mobile]').val().trim();
+      if(!validatePhoneNumber(phone_number)){
+        $('#contact_form_contact input[name=mobile]').css('color','#ff0000');
+        required_err = true;
+      } else {
+        $('#contact_form_contact input[name=mobile]').css('color','#000000')
+      }
+
     }
 
     if(required_err)
@@ -185,7 +202,17 @@ $(document).ready(function(){
       $('#contact_form input[name=number]').attr('placeholder','Please fill out this field');
       $('#contact_form input[name=number]').addClass('placeholder-err')
       required_err = true;
+    } else {
+      var phone_number = $('#contact_form input[name=number]').val().trim();
+      if(!validatePhoneNumber(phone_number)){
+        $('#contact_form input[name=number]').css('color','#ff0000');
+        required_err = true;
+      } else {
+        $('#contact_form input[name=number]').css('color','#ffffff')
+      }
+
     }
+    // console.log($('#contact_form input[name=number]').val().trim())
     // if($('#contact_form select[name=area_of_interest]').val().trim() == ''){
     //   $('#contact_form select[name=area_of_interest]').attr('placeholder','Please fill out this field');
     //   $('#contact_form select[name=area_of_interest]').addClass('placeholder-err')
