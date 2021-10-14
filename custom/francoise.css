@@ -570,13 +570,16 @@ form {
 }
 
 .moreInfoBtn {
-  margin-top: 5%;
+  
   font-family: 'Montserrat';
   font-size: 22px;
   font-weight: 600;
 
 }
-
+.moreInfoBtns{
+	text-align:right !important;
+	margin:0 !important;
+}
 .modal-backdrop {
   background-color: #fff;
 }
@@ -1578,7 +1581,7 @@ input.form-control {
     font-size: 12px;
     font-family: 'MONTSERRAT';
     font-weight: 600;
-    margin: 11% 0;
+    margin: 5% 0;
 }
 #clientservices .b2c li {
     font-size: 14px;
