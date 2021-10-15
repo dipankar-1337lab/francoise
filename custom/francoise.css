@@ -402,10 +402,10 @@ a.nodecor {
   list-style-type: none;
 }
 
-.b2c-collapse-rightSide {
+/* .b2c-collapse-rightSide {
   background: url(../img/services-b2c-Events-Background.jpg) center cover no-repeat !important;
 
-}
+} */
 
 .b2c-collapse-rightSide ul li {
   font-family: 'Montserrat', sans-serif;
@@ -415,9 +415,9 @@ a.nodecor {
 
 }
 
-.b2b-collapse-leftSide {
+/* .b2b-collapse-leftSide {
   background: url(../img/services-b2b-Events-Background.jpg) center cover no-repeat !important;
-}
+} */
 
 .b2b-collapse-leftSide h3 {
   margin: 1.1em;
