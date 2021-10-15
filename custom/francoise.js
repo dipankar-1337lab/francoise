@@ -149,7 +149,7 @@ $(document).ready(function(){
 
     $.ajax({
       type: 'post',
-      url: 'https://35.174.88.27/francoise/email.php',
+      url: 'https://analogmethod.com/francoise/email.php',
       data: frm.serialize(),
       success: function (data) {
           $.LoadingOverlay("hide", true);
@@ -227,7 +227,7 @@ $(document).ready(function(){
   
     $.ajax({
       type: 'post',
-      url: 'https://35.174.88.27/francoise/email.php',
+      url: 'https://analogmethod.com/francoise/email.php',
       data: frm.serialize(),
       success: function (data) {
         $.LoadingOverlay("hide", true);
