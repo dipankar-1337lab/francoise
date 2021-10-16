@@ -100,8 +100,8 @@ function validatePhoneNumber(elementValue){
 
 $(document).ready(function(){
 
-  $('#contact_form input[name=number]').mask('(000) 000-0000');
-  $('#contact_form_contact input[name=mobile]').mask('(000) 000-0000');
+  // $('#contact_form input[name=number]').mask('(000) 000-0000');
+  // $('#contact_form_contact input[name=mobile]').mask('(000) 000-0000');
  
   $("#contact_form_contact").submit(function(e){
     var required_err = false;
