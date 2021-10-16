@@ -77,7 +77,7 @@ $(window).scroll(function () {
 // }
 
 var testModalLink = $('.mobi-testi').find('ul li a')
-console.log(testModalLink)
+// console.log(testModalLink)
 
 $('#mobreview').find('ul li a').click(function(e){
   var testContent = $(this).find('p').html();
