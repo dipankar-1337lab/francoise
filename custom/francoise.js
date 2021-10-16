@@ -21,8 +21,8 @@ var closeMenuG = document.getElementsByClassName('naver');
 
 Array.prototype.forEach.call(closeMenuG, function (element) {
   element.addEventListener('click', function () {
-    document.querySelector('.b2c-collapse').classList.remove('open')
-    document.querySelector('.b2b-collapse').classList.remove('open')
+    // document.querySelector('.b2c-collapse').classList.remove('open')
+    // document.querySelector('.b2b-collapse').classList.remove('open')
     document.querySelector('.offcanvas-collapse').classList.remove('open')
   });
 });
