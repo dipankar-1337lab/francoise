@@ -1063,6 +1063,9 @@ body{
 #about .contact a{
   font-size: 22px;
 }
+.aboutimg .img-fluid{
+  height: auto;
+}
 .moreInfoBtn {
   font-size: 22px;
 }
