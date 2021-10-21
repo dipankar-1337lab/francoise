@@ -180,6 +180,7 @@ a.nodecor h3{
   font-size: 1.95vw;
   font-family: 'pt';
   font-weight: bold;
+  text-transform: none;
 }
 .client_services {
     /* padding: 0; */
