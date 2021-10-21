@@ -871,7 +871,7 @@ select {
 
 #clientservices.cover-container,
 .cover-container .testimonials {
-  padding-top: 53px;
+  padding-top: 100px;
 }
 /* .client_services{
 	padding: 15vh 0;
@@ -960,11 +960,11 @@ select {
 }
 
 .contactWrp .sendbtn button {
-     background: url(../img/icoSendMobile.ioc);
+    background: url(../img/sent-icon-2.png);
     width: 96px;
     height: 68px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .thankyouWrp {
