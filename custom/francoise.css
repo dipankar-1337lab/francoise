@@ -52,6 +52,10 @@ a.nodecor {
   text-decoration: none !important;
 }
 
+a.nodecor h3{
+  font-size: 1.85vw;
+}
+
 .fixed-top {
   background-color: white;
 }
@@ -94,7 +98,8 @@ a.nodecor {
   margin: 20px;
   margin: 12px 20px;
   /* font-size: 58px; */
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.95vw;
   font-weight: normal;
   font-family: 'PT Serif';
 }
@@ -126,7 +131,8 @@ a.nodecor {
 }
 
 .client_services .learnmore .sertitle {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 1.45vw;
       font-family: 'Montserrat';
 
 }
