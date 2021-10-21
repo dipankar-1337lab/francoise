@@ -51,7 +51,7 @@ button:focus {outline:0;}
   margin-top: 15px;
 }
 
-a,a:active, a:focus { outline: none !important;
+a,a:active, a:focus, button { outline: none !important;
   border: none !important;        
   text-decoration: none !important;
   box-shadow: none !important;
