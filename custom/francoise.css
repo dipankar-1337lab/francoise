@@ -152,13 +152,14 @@ a.nodecor h3{
 }
 
 #clientservices .b2b .title {
-  font-size: 30px;
-   
+  /* font-size: 30px; */
+  font-size: 1.95vw;
   margin-bottom: 5%;
 }
 
 #clientservices .b2b .subtitle {
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.95vw;
   font-family: 'pt';
   font-weight: bold;
 }
@@ -169,7 +170,8 @@ a.nodecor h3{
 
 
 #clientservices .b2b p {
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 1.5vmax;
   font-family: 'PT Serif';
   font-style: italic;
 }
@@ -590,7 +592,8 @@ form {
 .moreInfoBtn {
   margin-top: 3%;
   font-family: 'Montserrat';
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: 1.5vmax;
   font-weight: 600;
 
 }
