@@ -1040,6 +1040,9 @@ select {
 }
 
 @media screen and (max-width: 1024px) {
+body{
+  padding-top: 70px;
+}
 .fixed-top{
   padding: 10px 10px 5px 10px;
 }
