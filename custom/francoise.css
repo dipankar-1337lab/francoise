@@ -257,7 +257,8 @@ a.nodecor h3{
 #about .contact a{
 	     color: black;
     text-decoration: none;
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 1.5vw;
     font-family: 'Montserrat';
 }
 #testimonials h3 {
@@ -1057,6 +1058,9 @@ body{
   font-size: 30px;
 }
 .client_services .learnmore .sertitle {
+  font-size: 22px;
+}
+#about .contact a{
   font-size: 22px;
 }
 .moreInfoBtn {
