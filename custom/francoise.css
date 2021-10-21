@@ -1087,7 +1087,7 @@ select {
 
   
   .client_services .learnmore .sertitle {
-    font-size: 22px;
+    font-size: inherit;
   }
 
   .learnmore div>span {
