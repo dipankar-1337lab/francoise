@@ -1,14 +1,17 @@
 html,
 body {
-  height: auto;
+  height: 100vh;
+  height: 100%;
   /* Prevent scroll on narrow devices */
 }
 
 body {
   font-family: 'PT Serif';
-  height: 100vh;
+  
   /* position: fixed; */
   /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -117,7 +120,7 @@ a.nodecor h3{
 }
 
 .client_services {
-  flex:1;
+  flex:1 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -138,8 +141,10 @@ a.nodecor h3{
 
 .client_services .actionbutton {
   /* margin-top: 150px; */
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   /* width: 100%; */
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
 }
 
 .client_services .learnmore .sertitle {
@@ -899,7 +904,7 @@ select {
 
 #clientservices.cover-container,
 .cover-container .testimonials {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 /* .client_services{
 	padding: 15vh 0;
