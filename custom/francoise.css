@@ -375,8 +375,7 @@ a.nodecor h3{
 }
 .navbar-toggler-icon i
 {
-	
-    /* font-size: 24px; */
+    font-size: 2.085vw !important;
     /* margin-left: -38px; */
 }
 /***********************      CLIENT SERVICES      ************************/
