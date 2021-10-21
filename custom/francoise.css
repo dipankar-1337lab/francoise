@@ -959,9 +959,9 @@ select {
 
 .contactWrp .h2 {
   font-family: 'PT Serif', sans-serif;
-  font-size: 28px;
+  font-size: 1.45vw;
   color: #212121;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 130%;
   margin-bottom: 4rem;
 }
@@ -1029,6 +1029,10 @@ select {
     font-size: x-large;
   }
   
+  .contactWrp .h2 {
+    font-size: x-large;
+    font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 1024px) {
