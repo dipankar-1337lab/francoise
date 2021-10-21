@@ -1010,6 +1010,9 @@ select {
 .client_services .learnmore .sertitle {
   font-size: 22px;
 }
+.moreInfoBtn {
+  font-size: 22px;
+}
   
   #testimonials .carousel-item {
     min-width: 100%;
