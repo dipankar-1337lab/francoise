@@ -901,11 +901,11 @@ select {
 .carousel-item .carousel-caption {
   display: flex;
 }
-
+/* 
 #clientservices.cover-container,
 .cover-container .testimonials {
-  /* padding-top: 100px; */
-}
+  padding-top: 100px;
+} */
 /* .client_services{
 	padding: 15vh 0;
 } */
@@ -959,9 +959,9 @@ select {
 
 .contactWrp .h2 {
   font-family: 'PT Serif', sans-serif;
-  font-size: 28px;
+  font-size: 1.45vw;
   color: #212121;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 130%;
   margin-bottom: 4rem;
 }
@@ -988,7 +988,7 @@ select {
   position: relative;
   width: auto;
   border: 0;
-  font-size: 22px;
+  font-size: 1.45vw;
   margin: 0;
 }
 
@@ -1023,6 +1023,15 @@ select {
 
   .contactWrp label {
     font-size: x-large;  
+  }
+
+  .contactWrp .form-control {
+    font-size: x-large;
+  }
+  
+  .contactWrp .h2 {
+    font-size: x-large;
+    font-weight: bold;
   }
 }
 
