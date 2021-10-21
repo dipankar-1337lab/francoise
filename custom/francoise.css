@@ -1565,7 +1565,8 @@ input.form-control {
 	}
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) { */
+  @media (min-width: 1284px) {
 	a.nodecor h3 {
     font-size: inherit;
   }
