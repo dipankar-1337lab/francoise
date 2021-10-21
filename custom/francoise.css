@@ -1019,6 +1019,13 @@ select {
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 1600px) {
+
+  .contactWrp label {
+    font-size: x-large;  
+  }
+}
+
 @media screen and (max-width: 1024px) {
 .fixed-top{
   padding: 10px 10px 5px 10px;
@@ -1069,6 +1076,8 @@ select {
 
   .navbar-toggler-icon img {
     width: 24px !important;
+    margin-top:10px;
+    margin-right:10px;
     /* padding-left: 10px; */
   }
 
@@ -1239,6 +1248,8 @@ select {
 
   .navbar-toggler-icon img {
     width: 24px !important;
+    margin-top:10px;
+    margin-right:10px;
     /* padding-left: 10px; */
   }
 
@@ -1644,6 +1655,8 @@ input.form-control {
 
   .navbar-toggler-icon img {
     width: 24px !important;
+    margin-top:10px;
+    margin-right:10px;
     /* padding-left: 10px; */
   }
 
