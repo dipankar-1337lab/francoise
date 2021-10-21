@@ -69,6 +69,7 @@ a.nodecor h3{
 
 .fixed-top {
   background-color: white;
+  padding: 20px;
 }
 
 .hp {display: none;}
@@ -110,8 +111,8 @@ a.nodecor h3{
   margin: 12px 20px;
   /* font-size: 58px; */
   /* font-size: 30px; */
-  font-size: 1.95vw;
-  font-weight: normal;
+  font-size: 2.5vw;
+  font-weight: bold;
   font-family: 'PT Serif';
 }
 
