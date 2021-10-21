@@ -1000,6 +1000,11 @@ select {
 }
 
 @media screen and (max-width: 1024px) {
+
+.client_services .learnmore .sertitle {
+  font-size: 22px;
+}
+  
   #testimonials .carousel-item {
     min-width: 100%;
 	min-height: 250px;
@@ -1082,9 +1087,10 @@ select {
   }
 
   
-/* .client_services .learnmore .sertitle {
-   font-size: 17px;
-} */
+  .client_services .learnmore .sertitle {
+    font-size: 22px;
+  }
+
   .learnmore div>span {
     font-size: 40px !important;
   }
