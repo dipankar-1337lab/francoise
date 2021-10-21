@@ -284,6 +284,7 @@ a.nodecor {
 .offcanvas-collapse.open {
   visibility: visible;
   transform: translateX(-100%);
+  z-index: 99;
 }
 
 .nav-scroller {
