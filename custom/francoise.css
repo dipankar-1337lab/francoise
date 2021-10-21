@@ -108,7 +108,11 @@ a.nodecor h3{
 .aboutimg{
 	 /*background: url(../img/About-Francoise.jpg) center top no-repeat;*/
 }
-.aboutimg .img-fluid{position: sticky; top:45px}
+.aboutimg .img-fluid{
+  position: sticky; 
+  top:45px;
+  height: 100vh;
+}
 .client_services ul li {
   margin: 20px;
   margin: 12px 20px;
