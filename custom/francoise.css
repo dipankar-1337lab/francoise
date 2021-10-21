@@ -576,7 +576,7 @@ form {
 }
 
 #contact.cover-container {
-  padding: 10vh 0;
+  /* padding: 10vh 0; */
 }
 
 .navbar-brand.logo {
@@ -1274,13 +1274,13 @@ body{
     margin-bottom: 40px;
 	}
 	#contact.cover-container {
-    padding: 6vh 0;
+    /* padding: 6vh 0; */
 	}
 }
 @media (min-width: 731px) {
 	
 	#contact.cover-container {
-    padding: 10vh 0;
+    /* padding: 10vh 0; */
 	}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1631,7 +1631,7 @@ input.form-control {
 		    padding: 40vh 0px;
 	}
 	#contact.cover-container {
-    padding: 15vh 0;
+    /* padding: 15vh 0; */
 	}
 	.vh-100 {
 		height: auto !important;
@@ -1652,7 +1652,7 @@ input.form-control {
 		    padding: 40vh 0px;
 	}
 	#contact.cover-container {
-    padding: 15vh 0;
+    /* padding: 15vh 0; */
 	}
 .vh-100 {
     height: auto !important;
