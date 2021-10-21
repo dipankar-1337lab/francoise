@@ -31,6 +31,8 @@ button {
   background: none;
 }
 
+button:focus {outline:0;}
+
 .nav-button {
   /* margin-top: 5px; */
   margin-top: -15px;
