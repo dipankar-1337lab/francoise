@@ -1014,7 +1014,9 @@ select {
 }
 
 @media screen and (max-width: 1024px) {
-
+#clientservices .b2b .title{
+  font-size: 30px;
+}
 .client_services .learnmore .sertitle {
   font-size: 22px;
 }
