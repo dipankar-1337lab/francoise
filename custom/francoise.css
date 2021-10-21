@@ -1194,9 +1194,7 @@ select {
     margin-top: 40%;
   
 	} */
-  a.nodecor h3 {
-    font-size: inherit;
-  }
+  
 	#mobreview h3 {
     margin-top: 50px;
     margin-bottom: 40px;
@@ -1206,9 +1204,7 @@ select {
 	}
 }
 @media (min-width: 731px) {
-	a.nodecor h3 {
-    font-size: inherit;
-  }
+	
 	#contact.cover-container {
     padding: 10vh 0;
 	}
@@ -1549,9 +1545,7 @@ input.form-control {
     margin-top: 0;
     margin-bottom: 0;
 } */
-  a.nodecor h3 {
-    font-size: inherit;
-  }
+  
 	#sticky {
     background-size: cover;
 	}
@@ -1571,9 +1565,7 @@ input.form-control {
 }
 
 @media (min-width: 1200px) {
-	a.nodecor h3 {
-    font-size: inherit;
-  }
+	
 	#sticky {
     background-size: cover;
 	}
