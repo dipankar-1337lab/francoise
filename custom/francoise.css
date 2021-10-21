@@ -38,6 +38,12 @@ button {
 	padding: 10vh 0;
 }
 
+#navbarSideClose{
+  width: 100%;
+  text-align: end;
+  padding-right: 43px;
+}
+
 a.nodecor {
   color:#000 !important;
   text-decoration: none !important;
@@ -1189,7 +1195,7 @@ select {
   }
 
   .nav-button {
-    margin-top: -25px;
+    /* margin-top: -25px; */
   }
 #testimonials.vh-100 {
    height: auto !important;
@@ -1292,7 +1298,7 @@ select {
   }
 
   .nav-button {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     margin-left: -25px;
   }
 .abouttitle {
@@ -1405,7 +1411,7 @@ input.form-control {
     background-size: cover;
 }
   .nav-button {
-    margin-top: -25px;
+    /* margin-top: -25px; */
     margin-left: -25px;
   }
 .abouttitle {
