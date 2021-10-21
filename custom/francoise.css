@@ -7,7 +7,7 @@ body {
 
 body {
   font-family: 'PT Serif';
-  
+  padding-top: 120px;
   /* position: fixed; */
   /* overflow: hidden; */
   /* display: flex;
@@ -266,6 +266,10 @@ a.nodecor h3{
   display: inherit;
   margin: 0px !important;
   padding: 0px !important;
+}
+
+#mobreview h4{
+  font-size: 1.2vw;
 }
 
 /*****************************  NAVIGATION **********************************/
