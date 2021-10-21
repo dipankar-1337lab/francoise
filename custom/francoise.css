@@ -906,7 +906,6 @@ select {
 .nav-button {
   width: 70px;
   height: 70px;
-  width: 100%;
 }
 
 .contactWrp h3 {
@@ -1024,7 +1023,6 @@ select {
   .nav-button .navbar-toggler-icon {
     width: 1em;
     height: 1em;
-    float: right;
   }
 
   .nav-button .navbar-toggler-icon .fa-3x {
