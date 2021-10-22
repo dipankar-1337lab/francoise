@@ -1234,10 +1234,10 @@ select {
     z-index: 9;
   }
 
-  .nav-button .navbar-toggler-icon {
+  /* .nav-button .navbar-toggler-icon {
     width: 1em;
     height: 1em;
-  }
+  } */
 
   .nav-button .navbar-toggler-icon .fa-3x {
     font-size: 3em;
