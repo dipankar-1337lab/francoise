@@ -266,7 +266,8 @@ overflow: hidden;
 
 #about p {
   margin-top:20px;
-  font-size: 0.87vw;
+  /* font-size: 0.87vw; */
+  font-size: 0.82vw;
 }
 .aboutcont{
 	/* margin-top: 51px; */
