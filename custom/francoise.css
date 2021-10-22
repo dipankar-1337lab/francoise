@@ -1234,10 +1234,10 @@ select {
 	    align-items: baseline;
     max-width: 111%;
     /* width: 800px; */
-    /* margin-left: -19px; */
+    margin-left: -19px;
 }
 #about .aboutmain{
-	/* margin-top: 40px; */
+	margin-top: 40px;
 }
   #clientservices .content button {
     left: -34%;
