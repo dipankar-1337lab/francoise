@@ -636,9 +636,9 @@ form {
   text-align: justify;
 }
 
-#contact.cover-container {
+/* #contact.cover-container {
   padding: 6vh 0;
-}
+} */
 
 .navbar-brand.logo {
   transition: ease all 0.5s;
@@ -1391,15 +1391,15 @@ select {
     margin-top: 50px;
     margin-bottom: 40px;
 	} */
-	#contact.cover-container {
+	/* #contact.cover-container {
     padding: 6vh 0;
-	}
+	} */
 }
 @media (min-width: 731px) {
 	
-	#contact.cover-container {
+	/* #contact.cover-container {
     padding: 6vh 0;
-	}
+	} */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   a.nodecor h3 {
@@ -1734,9 +1734,9 @@ input.form-control {
 }
 
 @media screen and (min-width: 576px) and (max-width: 1100px) {
-	#contact.cover-container {
+	/* #contact.cover-container {
     padding: 6vh 0;
-	}
+	} */
 }
 
 @media (min-width: 1100px) {
@@ -1759,7 +1759,7 @@ input.form-control {
 		    padding: 40vh 0px;
 	}
 	#contact.cover-container {
-    padding: 6vh 0;
+    /* padding: 6vh 0; */
     justify-content: center;
 	}
 	.vh-100 {
