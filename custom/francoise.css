@@ -1238,7 +1238,8 @@ select {
   }
 
   .nav-button {
-   margin-top: -18px;
+    margin-top: -4px;
+   /* margin-top: -18px; */
     /* margin-left: -25px; */
     z-index: 9;
   }
