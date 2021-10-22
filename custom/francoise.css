@@ -130,7 +130,9 @@ a.nodecor h3{
   font-weight: bold;
   font-family: 'PT Serif';
 }
-
+#home .container-fluid{
+overflow: hidden;	
+}
 .client_services {
   flex:1 0 auto;
   display: flex;
