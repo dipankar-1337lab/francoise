@@ -1078,7 +1078,8 @@ select {
   height: auto;
 }
 .moreInfoBtn {
-  font-size: 22px;
+  /* font-size: 22px; */
+  font-size: inherit;
 }
   
   #testimonials .carousel-item {
@@ -1756,7 +1757,7 @@ input.form-control {
    /*  font-size: 25px; */
 }
 #clientservices .b2c .subtitle {
-    font-size: 12px;
+    font-size: 22px;
     font-family: 'MONTSERRAT';
     font-weight: 600;
     margin: 5% 0;
