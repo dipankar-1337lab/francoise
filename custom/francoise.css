@@ -246,9 +246,9 @@ a.nodecor h3{
     outline: 0;
     box-shadow: 0px 0;
 }
-#about, #mobreview{
+/* #about, #mobreview{
   margin-top: 8vw!important;
-}
+} */
 #about h3 {
   font-size: 1.95vw;
 }
@@ -277,7 +277,7 @@ a.nodecor h3{
 }
 
 .total {
-  min-height: 99vh;
+  min-height: 90vh;
 }
 
 .cuarto {
