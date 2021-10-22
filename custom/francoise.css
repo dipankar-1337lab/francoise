@@ -1214,8 +1214,8 @@ select {
 
   .navbar-toggler-icon img {
     width: 24px !important;
-    margin-top:10px;
-    margin-right:10px;
+    /* margin-top:10px;
+    margin-right:10px; */
     /* padding-left: 10px; */
   }
 
@@ -1232,7 +1232,7 @@ select {
 
   .nav-button {
    margin-top: -18px;
-    margin-left: -25px;
+    /* margin-left: -25px; */
     z-index: 9;
   }
 
@@ -1387,8 +1387,8 @@ select {
 
   .navbar-toggler-icon img {
     width: 24px !important;
-    margin-top:10px;
-    margin-right:10px;
+    /* margin-top:10px;
+    margin-right:10px; */
     /* padding-left: 10px; */
   }
 
@@ -1806,8 +1806,8 @@ input.form-control {
 
   .navbar-toggler-icon img {
     width: 24px !important;
-    margin-top:10px;
-    margin-right:10px;
+    /* margin-top:10px;
+    margin-right:10px; */
     /* padding-left: 10px; */
   }
 
