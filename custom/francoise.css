@@ -1112,8 +1112,8 @@ select {
   padding-top: 70px;
 } */
 .navbar{
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
 .fixed-top{
   padding: 10px 10px 5px 10px;
