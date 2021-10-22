@@ -1211,6 +1211,13 @@ select {
   .servModal .selectBox select{
     padding: 0 40px 0 0px;
   }
+
+  .aboutimg{
+    background: none;
+  }
+  .aboutimg img{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
