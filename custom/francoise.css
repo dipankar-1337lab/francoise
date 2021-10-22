@@ -1383,9 +1383,9 @@ select {
   
 	} */
   
-  .navbar-toggler-icon i {
+  /* .navbar-toggler-icon i {
     font-size: 1.5em !important;
-  }
+  } */
 
   .navbar-toggler-icon img {
     width: 24px !important;
