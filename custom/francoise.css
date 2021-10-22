@@ -58,7 +58,9 @@ button:focus {outline:0;}
   width: 100%;
   text-align: end;
   /* padding-right: 43px; */
-  margin-top: 15px;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 a,a:active, a:focus, button { outline: none !important;
@@ -450,6 +452,11 @@ input:-webkit-autofill:active  {
 .navbar-toggler-icon i
 {
     font-size: 2.085vw !important;
+    /* margin-left: -38px; */
+}
+.navbar-toggler-icon img
+{
+    width: 2.085vw !important;
     /* margin-left: -38px; */
 }
 /***********************      CLIENT SERVICES      ************************/
@@ -1119,6 +1126,12 @@ select {
   padding-left: 0;
   padding-right: 0;
 }
+
+#navbarSideClose{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .fixed-top{
   padding: 10px 10px 5px 10px;
 }
@@ -1398,12 +1411,12 @@ select {
     font-size: 1.5em !important;
   } */
 
-  .navbar-toggler-icon img {
+  /* .navbar-toggler-icon img {
     width: 24px !important;
-    /* margin-top:10px;
-    margin-right:10px; */
-    /* padding-left: 10px; */
-  }
+    margin-top:10px;
+    margin-right:10px;
+    padding-left: 10px;
+  } */
 
 	/* #mobreview h3 {
     margin-top: 50px;
