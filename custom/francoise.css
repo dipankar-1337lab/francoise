@@ -286,6 +286,10 @@ a.nodecor h3{
   padding: 0px !important;
 }
 
+#mobreview p{
+  font-size: 1vw;
+}
+
 #mobreview h3{
   font-size: 1.95vw;
   margin-bottom: 5vw;
@@ -713,7 +717,9 @@ form {
 }
 
 .modal.show .modal-dialog.modal-fullwidth .btn-close {
-  right: 7%;
+  /* right: 7%; */
+  right: 1.5vw;
+  top: 1%
 }
 
 .cover-container {
@@ -1098,6 +1104,9 @@ select {
 
   .btn-send {
     margin-left: 0;
+  }
+  #mobreview p{
+    font-size: 14px;
   }
   #mobreview h3{
     font-size: 1.75rem;
