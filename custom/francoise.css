@@ -118,7 +118,7 @@ a.nodecor h3{
 }
 .aboutimg .img-fluid{
   position: sticky; 
-  top:45px;
+  /* top:45px; */
   height: 100vh;
 }
 .client_services ul li {
@@ -1206,7 +1206,7 @@ select {
 	    align-items: baseline;
     max-width: 111%;
     /* width: 800px; */
-    margin-left: -19px;
+    /* margin-left: -19px; */
 }
 #about .aboutmain{
 	/* margin-top: 40px; */
@@ -1315,7 +1315,7 @@ select {
     font-size: inherit;
   }
 	#sticky {
-    background-size: contain;
+    background-size: cover;
   }
   .moreInfoBtn {
     margin-top: 0;
