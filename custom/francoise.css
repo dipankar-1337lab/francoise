@@ -1101,6 +1101,7 @@ select {
   font-family: 'PT Serif';
   font-style: italic;
   margin-bottom: 2rem;
+  font-size: 1vw;
 }
 
 @media screen and (max-width: 1600px) {
@@ -1218,6 +1219,9 @@ select {
   }
   .aboutimg img{
     display: block;
+  }
+  .thankyouWrp p {
+    font-size: inherit;
   }
 }
 
