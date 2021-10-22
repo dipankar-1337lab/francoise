@@ -56,6 +56,7 @@ button:focus {outline:0;}
 .wolfique-shop-icon{
   max-width: 100%;
   width: 22px;
+  padding-bottom: 8px;
 }
 
 #navbarSideClose{
@@ -1140,7 +1141,10 @@ select {
   padding-right: 0px;
   margin-top:15px;
 }
-
+.wolfique-shop-icon{
+  width: 18px;
+  padding-bottom: 8px;
+}
 .fixed-top{
   padding: 10px 10px 5px 10px;
 }
