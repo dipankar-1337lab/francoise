@@ -1095,13 +1095,14 @@ select {
   font-style: italic;
   margin-bottom: 2rem;
   text-transform: none;
+  font-size: 1.8vw;
 }
 
 .thankyouWrp p {
   font-family: 'PT Serif';
   font-style: italic;
   margin-bottom: 2rem;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 
 @media screen and (max-width: 1600px) {
@@ -1219,6 +1220,9 @@ select {
   }
   .aboutimg img{
     display: block;
+  }
+  .thankyouWrp h2 {
+    font-size: 22px;
   }
   .thankyouWrp p {
     font-size: inherit;
