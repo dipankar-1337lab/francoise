@@ -286,8 +286,17 @@ a.nodecor h3{
   padding: 0px !important;
 }
 
+#mobreview h3{
+  font-size: 1.95vw;
+  margin-bottom: 5vw;
+}
+
 #mobreview h4{
   font-size: 1.2vw;
+}
+
+#mobreview h5{
+  font-size: 1vw;
 }
 
 /*****************************  NAVIGATION **********************************/
@@ -746,10 +755,10 @@ form {
   display: none;
 }
 
-#mobreview h3 {
+/* #mobreview h3 {
   margin-top: 40px;
   margin-bottom: 30px;
-}
+} */
 
 #mobreview ul {
   margin: 0;
@@ -1090,6 +1099,16 @@ select {
   .btn-send {
     margin-left: 0;
   }
+  #mobreview h3{
+    font-size: 1.75rem;
+    margin-bottom: 10vw;
+  }
+  #mobreview h4 {
+    font-size: 18px;
+  }
+  #mobreview h5 {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1296,10 +1315,10 @@ select {
     /* padding-left: 10px; */
   }
 
-	#mobreview h3 {
+	/* #mobreview h3 {
     margin-top: 50px;
     margin-bottom: 40px;
-	}
+	} */
 	#contact.cover-container {
     padding: 6vh 0;
 	}
@@ -1694,6 +1713,7 @@ input.form-control {
 .vh-100 {
     height: auto !important;
 }
+
 }
 
 @media screen and (max-width: 420px) {
