@@ -1061,7 +1061,7 @@ select {
 
 .contactWrp .sendbtn button {
     background: url(../img/sent-icon-2.png);
-    width: 99px;
+    width: 75px;
     height: 65px;
     background-repeat: no-repeat;
     background-size: contain;
