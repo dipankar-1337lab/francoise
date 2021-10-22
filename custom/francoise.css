@@ -1000,7 +1000,7 @@ select {
   font-size: 1.45vw;
   color: #212121;
   font-weight: bold;
-  line-height: 130%;
+  /* line-height: 130%; */
   margin-bottom: 4rem;
 }
 
@@ -1032,8 +1032,8 @@ select {
 
 .contactWrp .sendbtn button {
     background: url(../img/sent-icon-2.png);
-    width: 96px;
-    height: 68px;
+    width: 99px;
+    height: 65px;
     background-repeat: no-repeat;
     background-size: contain;
 }
