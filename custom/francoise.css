@@ -1111,6 +1111,10 @@ select {
 /* body{
   padding-top: 70px;
 } */
+.navbar{
+  padding-left: auto;
+  padding-right: auto;
+}
 .fixed-top{
   padding: 10px 10px 5px 10px;
 }
