@@ -1094,6 +1094,7 @@ select {
   font-family: 'PT Serif';
   font-style: italic;
   margin-bottom: 2rem;
+  text-transform: none;
 }
 
 .thankyouWrp p {
