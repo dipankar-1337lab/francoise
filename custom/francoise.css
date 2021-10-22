@@ -43,6 +43,8 @@ button:focus {outline:0;}
 .navbar{
   height: 10vw;
   height: 10%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .undernav{
   height: 90vw;
