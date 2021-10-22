@@ -1250,7 +1250,8 @@ select {
 
   #sticky {
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 90vh!important;
   }
 
   .slogan {
