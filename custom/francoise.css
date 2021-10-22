@@ -1126,6 +1126,7 @@ select {
 #navbarSideClose{
   padding-left: 0px;
   padding-right: 0px;
+  margin-top:15px;
 }
 
 .fixed-top{
