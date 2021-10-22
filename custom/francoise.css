@@ -41,14 +41,14 @@ button:focus {outline:0;}
   margin-top: -15px;
 }
 .navbar{
-  height: 10vw;
-  height: 10%;
+  height: 15vw;
+  height: 15%;
   padding-left: 50px;
   padding-right: 50px;
 }
 .undernav{
-  height: 90vw;
-  height: 90%;
+  height: 85vw;
+  height: 85%;
 }
 .navbar-nav{
 	padding: 10vh 0;
