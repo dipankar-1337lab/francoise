@@ -201,9 +201,9 @@ a.nodecor h3{
 .textareatitle{
 	margin-bottom: 15px;
 }
-#clientservices .b2c-collapse.open {
-  /*background: url('../img/b2c_background.jpeg') center !important;*/
-}
+/* #clientservices .b2c-collapse.open {
+  background: url('../img/b2c_background.jpeg') center !important;
+} */
 #clientservices .b2c .title {
      font-size: 30px;
    
@@ -583,9 +583,9 @@ form {
   text-align: justify;
 }
 
-/* #contact.cover-container {
-  padding: 10vh 0;
-} */
+#contact.cover-container {
+  padding: 20vh 0;
+}
 
 .navbar-brand.logo {
   transition: ease all 0.5s;
@@ -1629,6 +1629,13 @@ input.form-control {
   }
 	
 }
+
+@media screen and (min-width: 576px) and (max-width: 1100px) {
+	#contact.cover-container {
+    padding: 20vh 0;
+	}
+}
+
 @media (min-width: 1100px) {
 	/* .client_services {
     padding: 0vh 0;
