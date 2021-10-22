@@ -265,7 +265,7 @@ overflow: hidden;
 }
 
 #about p {
-  /* margin-top:20px; */
+  margin-top:20px;
   font-size: 0.87vw;
 }
 .aboutcont{
@@ -1316,32 +1316,31 @@ select {
   .client_services .learnmore .learnmore-center {
     margin-top: 4px;
   }
-  #about .aboutcont{
-    
-        z-index: 1;
-      margin-top: 93%;
-      background-color: black;
-      color: white;
-      box-shadow: 0px -51px 31px #000;
-      padding-bottom: 70px;
-  }
-  #about .aboutimg{
-    position: absolute;
-    overflow: hidden;
-  }
-  #about .contact a {
-      color: #fff;
-    
-  }
-  #about .aboutimg img{
-        align-items: baseline;
-      max-width: 111%;
-      /* width: 800px; */
-      margin-left: -19px;
-  }
-  #about .aboutmain{
-    margin-top: 40px;
-  }
+#about .aboutcont{
+	
+	    z-index: 1;
+    margin-top: 93%;
+    background-color: black;
+    color: white;
+    box-shadow: 0px -51px 31px #000;
+}
+#about .aboutimg{
+	position: absolute;
+	overflow: hidden;
+}
+#about .contact a {
+    color: #fff;
+   
+}
+#about .aboutimg img{
+	    align-items: baseline;
+    max-width: 111%;
+    /* width: 800px; */
+    margin-left: -19px;
+}
+#about .aboutmain{
+	margin-top: 40px;
+}
   #clientservices .content button {
     left: -34%;
     top: -26%;
@@ -1386,10 +1385,10 @@ select {
   .cover-container {
     /* overflow: hidden; */
   }
-  .abouttitle{
-        text-align: center;
-      z-index: 1;
-  }
+.abouttitle{
+	    text-align: center;
+    z-index: 1;
+}
   .b2c-collapse .b2c>.row,
   .b2b-collapse.b2b .container-fluid>.row {
     margin-left: 0 !important
@@ -1408,14 +1407,6 @@ select {
 	.b2c .moreInfoBtn {
     /* margin-top: 10%; */
 	}
-
-  #connect-btn {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000;
-  }
 }
 
 @media (min-width: 411px) {
@@ -2026,8 +2017,3 @@ input.form-control {
     max-width: 50px;
   }
 }
-
-@media (min-width: 576px) { 
- 
-
- }

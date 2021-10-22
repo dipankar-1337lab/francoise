@@ -40,7 +40,7 @@
 
 <body>
   <!--   <body class="d-flex h-100 text-center text-white bg-dark">  -->
-  <nav class="navbar sticky-top bg-white" aria-label="Main navigation" id="main-navbar">
+  <nav class="navbar sticky-top bg-white" aria-label="Main navigation">
     <div class="container-fluid">
       <a class="nodecor" href="index.html"><h1 class="navbar-brand logo">WOLFFIQUE</h1></a> <button class="nav-button" type="button"
         id="navbarSideCollapse" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fas fa-2x fa-bars" aria-hidden="true"></i></span> </button>
@@ -79,29 +79,27 @@
       <div class="row aboutmain  h-100">
 	  <h3 class="abouttitle text-center mobi-testi">GREETINGS.</h3>
         <div class="col-sm-6 aboutcont ">
-          <h3 class="abouttitle text-center desk-testi" id="about-title">GREETINGS.</h3>
-          <p class="text-justify overflow-scroll" id="about-content">
-              My name is François WOLFF Belizaire.  I was born the son of a music loving mathematician turned attorney, and undeniably, the best mom and chef ever. <br><br>
-              While young, my family and I moved to Brooklyn from Haiti to live the American dream. And together, we started everything over.  Knowing only simple English, my parents had very different opportunities.  They adapted.  My father became a NYC yellow cab driver, and my mother pursued being a seamstress. <br><br>
-              That said, being named after Mozart, a most gifted composer of classical music, and growing-up in a strict academic Caribbean-American household, ambition was encouraged, and nothing was deemed unattainable. <br><br>
-              Over the past 25 years, my professional career path has led me to new and diverse business experiences, sent me around the world, and resulted in an abundance of business connections with clients and colleagues, many of whom I now consider friends. <br><br>
-              I am a super-connector and an elite sales and business development leader.  I specialize in driving top line revenue growth and nurturing key client accounts for sustained profitability, and my network includes corporate executives, HNWI and sports & celebrity VIPs. <br><br>
-              My workspace is global and composed of luxury consumer lifestyle brands, resort & hospitality firms, event management services and B2B technology consulting.  During assignments and projects, I engage with clients across all levels from executive management to teams in the field. <br><br>
-              With respect to upside, my track record is proven, and I invite you to reach out to me so we can discuss opportunities for doing business together. <br><br>
-              <br>
-              Best. <br>
-              François Wolff <br>
-              
-          </p>
-		      <span class="d-block text-center contact m-0 p-3 pb-4" id="connect-btn">
+           <h3 class="abouttitle text-center desk-testi">GREETINGS.</h3>
+         <p class="text-justify">
+          My name is François WOLFF Belizaire.  I was born the son of a music loving mathematician turned attorney, and undeniably, the best mom and chef ever. <br><br>
+          While young, my family and I moved to Brooklyn from Haiti to live the American dream. And together, we started everything over.  Knowing only simple English, my parents had very different opportunities.  They adapted.  My father became a NYC yellow cab driver, and my mother pursued being a seamstress. <br><br>
+          That said, being named after Mozart, a most gifted composer of classical music, and growing-up in a strict academic Caribbean-American household, ambition was encouraged, and nothing was deemed unattainable. <br><br>
+          Over the past 25 years, my professional career path has led me to new and diverse business experiences, sent me around the world, and resulted in an abundance of business connections with clients and colleagues, many of whom I now consider friends. <br><br>
+          I am a super-connector and an elite sales and business development leader.  I specialize in driving top line revenue growth and nurturing key client accounts for sustained profitability, and my network includes corporate executives, HNWI and sports & celebrity VIPs. <br><br>
+          My workspace is global and composed of luxury consumer lifestyle brands, resort & hospitality firms, event management services and B2B technology consulting.  During assignments and projects, I engage with clients across all levels from executive management to teams in the field. <br><br>
+          With respect to upside, my track record is proven, and I invite you to reach out to me so we can discuss opportunities for doing business together. <br><br>
+          <br>
+          Best. <br>
+          François Wolff <br>
+          
+		  </p>
+		   <p class="text-center contact">
             <a href="contact.html">CONNECT</a>
-          </span>
+          </p>
 		 
         </div>
-        <div class="col-sm-6 aboutimg d-flex align-items-center p-3">
-          <div id="about-img">
-            <img src="img/About-Francoise.jpg" alt="About Francoise" class="img-fluid">
-          </div>
+        <div class="col-sm-6  p-0 m-0 aboutimg  h-100"><img src="img/About-Francoise.jpg" alt="About Francoise" style="align-items: baseline"
+            class="img-fluid">
         </div>
       </div>
     </div>
@@ -150,31 +148,6 @@
 });
   
   
-  </script>
-  <!-- set height for about content -->
-  <script>
-    $(document).ready(function() {
-      function setHeight() {
-        windowHeight = $(window).height();
-        aboutTitleHeight = $('#about-title').outerHeight();
-        mainNavbarHeight = $('#main-navbar').outerHeight();
-        connnectBtnHeight = $('#connect-btn').outerHeight();
-
-        aboutContentHeight = windowHeight - aboutTitleHeight - mainNavbarHeight - connnectBtnHeight - 80;
-        $('#about-content, #about-img').css('height', aboutContentHeight);
-        $('#about').css('height', windowHeight - mainNavbarHeight);
-        
-        console.log(windowHeight + ' a1')
-        console.log(aboutContentHeight + ' b2');
-        console.log($('#main-navbar').outerHeight());
-        
-      };
-      setHeight();
-      
-      $(window).resize(function() {
-        setHeight();
-      });
-    });
   </script>
 </body>
 
