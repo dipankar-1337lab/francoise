@@ -1118,6 +1118,11 @@ select {
   #mobreview h5 {
     font-size: 14px;
   }
+  .modal.show .modal-dialog.modal-fullwidth .btn-close {
+    /* right: 7%; */
+    right: 7%;
+    top: 1%
+  }
 }
 
 @media screen and (max-width: 768px) {
