@@ -105,7 +105,7 @@ a.nodecor h3{
 
 .slogan {
   position: absolute;
-  top: 70% !important;
+  top: 80% !important;
   /* font-size: 28px; */
   font-size: 1.83vw;
   font-weight: bold;
@@ -130,7 +130,9 @@ a.nodecor h3{
   font-weight: bold;
   font-family: 'PT Serif';
 }
-
+#home .container-fluid{
+overflow: hidden;	
+}
 .client_services {
   flex:1 0 auto;
   display: flex;
@@ -1254,7 +1256,7 @@ select {
   }
 
   .slogan {
-    top: 70% !important;
+   
     font-size: 22px;
    
   }
@@ -1417,7 +1419,7 @@ select {
   .slogan {
     font-size: 22px;
     text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
-    top: 70% !important;
+   
   }
 
   .nav-button {
@@ -1524,7 +1526,7 @@ select {
   .slogan {
     font-size: 22px;
        text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
-    top: 70% !important;
+    
   }
 
   .nav-button {
@@ -1639,7 +1641,7 @@ input.form-control {
   .slogan {
     font-size: 22px;
        text-shadow: 0px 0px 4px rgb(0 0 0 / 79%);
-    top: 70% !important;
+    
   }
 #sticky {
     background-size: cover;
