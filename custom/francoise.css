@@ -105,7 +105,8 @@ a.nodecor h3{
 
 .slogan {
   position: absolute;
-  top: 80% !important;
+  /* top: 80% !important; */
+  bottom: 15% !important;
   /* font-size: 28px; */
   font-size: 1.83vw;
   font-weight: bold;
