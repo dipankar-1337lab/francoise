@@ -53,6 +53,10 @@ button:focus {outline:0;}
 .navbar-nav{
 	padding: 10vh 0;
 }
+.wolfique-shop-icon{
+  max-width: 100%;
+  width: 25px;
+}
 
 #navbarSideClose{
   width: 100%;
