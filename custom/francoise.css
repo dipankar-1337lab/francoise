@@ -324,6 +324,14 @@ input.form-control, select.form-control, textarea.form-control{
   font-size: 1.3vw!important;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    color: #ffffff;
+}
+
 /*****************************  NAVIGATION **********************************/
 
 /*.navbar-toggler-icon color: #000!important;}
