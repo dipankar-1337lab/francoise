@@ -448,6 +448,11 @@ input:-webkit-autofill:active  {
     font-size: 2.085vw !important;
     /* margin-left: -38px; */
 }
+.navbar-toggler-icon img
+{
+    width: 2.085vw !important;
+    /* margin-left: -38px; */
+}
 /***********************      CLIENT SERVICES      ************************/
 
 .black {
@@ -1393,12 +1398,12 @@ select {
     font-size: 1.5em !important;
   } */
 
-  .navbar-toggler-icon img {
+  /* .navbar-toggler-icon img {
     width: 24px !important;
-    /* margin-top:10px;
-    margin-right:10px; */
-    /* padding-left: 10px; */
-  }
+    margin-top:10px;
+    margin-right:10px;
+    padding-left: 10px;
+  } */
 
 	/* #mobreview h3 {
     margin-top: 50px;
