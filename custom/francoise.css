@@ -131,11 +131,7 @@ a.nodecor h3{
 .aboutimg img{
   display: none;
 }
-.aboutimg .img-fluid{
-  position: sticky; 
-  /* top:45px; */
-  height: 100vh;
-}
+
 .client_services ul li {
   margin: 20px;
   margin: 12px 20px;
@@ -1136,7 +1132,22 @@ select {
     font-weight: bold;
   }
 }
-
+@media screen and (min-width: 575px) and (max-width: 1200px) {
+  .aboutmain {
+    flex-direction: column-reverse !important;
+    width: 100% !important;
+  }
+  .aboutcont {
+    width: 100% !important;
+  }
+  .aboutimg {
+    background: none !important;
+    width: 100%;
+  }
+  .aboutimg img {
+    display: block;
+  }
+}
 @media screen and (max-width: 1024px) {
 /* body{
   padding-top: 70px;
