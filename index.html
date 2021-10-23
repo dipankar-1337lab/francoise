@@ -133,6 +133,32 @@
     $(this).parents('.modal-content').find('form').hide();
     $(this).parents('.modal-content').find('.thankyouWrp').show();
 });
+
+
+ 
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).height();
+    aboutTitleHeight = $('#about-title').outerHeight();
+    mainNavbarHeight = $('#main-navbar').outerHeight();
+    connnectBtnHeight = $('#connect-btn').outerHeight();
+
+    aboutContentHeight = windowHeight - aboutTitleHeight - mainNavbarHeight - connnectBtnHeight - 80;
+    $('#about-content').css('height', aboutContentHeight);
+    $('#about').css('height', windowHeight - mainNavbarHeight);
+    
+    console.log(windowHeight + ' a1')
+    console.log(aboutContentHeight + ' b2');
+    console.log($('#main-navbar').outerHeight());
+    
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+});
+  
   
   
   </script>
