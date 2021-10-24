@@ -55,8 +55,10 @@ button:focus {outline:0;}
 }
 .wolfique-shop-icon{
   max-width: 100%;
-  width: 22px;
-  padding-bottom: 8px;
+  /* width: 22px; */
+  width: 2vw;
+  /* padding-bottom: 8px; */
+  padding-bottom: 0.8vw;
 }
 
 #navbarSideClose{
@@ -97,6 +99,7 @@ a.nodecor h3{
 .placeholder-err::-webkit-input-placeholder, .placeholder-err::placeholder {
   color: #ff0000
 }
+
 /*****************************   HOME ***************************************/
 
 #sticky {
@@ -421,7 +424,8 @@ input:-webkit-autofill:active  {
 
 
 .nav-link {
-  font-size: 2em;
+  /* font-size: 2em; */
+  font-size: 2.085vw;
   padding: 0.5em;
   color: #fff !important;
 }
@@ -599,10 +603,14 @@ form {
 
 .iconContact-1 {
   margin-left: 0px;
+  width: 3.2vw;
+  height: 3.2vw;
 }
 
 .iconContact-2 {
   margin-left: 20px;
+  width: 3.2vw;
+  height: 3.2vw;
 }
 
 
@@ -1018,8 +1026,11 @@ select {
 
 .sendbtn button {
   background: url(../img/icoSendModal.ioc);
-  width: 59px;
-  height: 42px;
+  background-size: contain;
+  /* width: 59px;
+  height: 42px; */
+  width: 3vw;
+  height: 2.2vw;
   outline: none;
 
 }
@@ -1044,7 +1055,7 @@ select {
   margin: 0 0 15px 0;
   text-transform: uppercase;
   font-weight: 600; */
-
+  font-size: 1.95vw;
 }
 
 .contactWrp .h2 {
@@ -1084,8 +1095,10 @@ select {
 
 .contactWrp .sendbtn button {
     background: url(../img/sent-icon-2.png);
-    width: 75px;
-    height: 65px;
+    /* width: 75px;
+    height: 65px; */
+    width: 3.9vw;
+    height: 2.5vw;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -1171,6 +1184,14 @@ select {
 	min-height: 250px;
   }
 
+  .sendbtn button {
+    width: 59px;
+    height: 42px;
+  }
+  .contactWrp .sendbtn button{
+    width: 75px;
+    height: 49px;
+  }
   .btn-send {
     margin-left: 0;
   }
@@ -1236,6 +1257,17 @@ select {
   }
   .thankyouWrp p {
     font-size: inherit;
+  }
+  iconContact-1 {
+    margin-left: 0px;
+    width: 62px;
+    height: 62px;
+  }
+  
+  .iconContact-2 {
+    margin-left: 20px;
+    width: 62px;
+    height: 62px;
   }
 }
 
