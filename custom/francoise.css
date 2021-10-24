@@ -323,7 +323,7 @@ overflow: hidden;
   font-size: 1vw;
 }
 
-.contact h3{
+#contact h3{
   font-size: 1.95vw;
 }
 
@@ -1262,7 +1262,7 @@ select {
   .thankyouWrp p {
     font-size: inherit;
   }
-  .contact h3{
+  #contact h3{
     font-size: 22px;
   }
   .iconContact-1 {
