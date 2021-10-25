@@ -1379,10 +1379,6 @@ select {
   .sendbtn {
     margin: 0;
   }
-
-  .contactright {
-    margin-top: 1rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -2273,6 +2269,14 @@ select {
   .service-link.small {
     font-size: calc(1.70rem * 2.5);
     font-weight: 500;
+  }
+
+  .contactBtnIcon-4k .contactWrp .sendbtn button {
+    zoom: 2;
+  }
+
+  .contactBtnIcon-4k .contactright {
+    zoom: 2;
   }
 
 }
