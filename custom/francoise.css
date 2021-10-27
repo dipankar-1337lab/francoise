@@ -1238,6 +1238,10 @@ select {
   padding-right: 0;
 }
 
+.navbar-toggler-icon{
+  height: auto;
+}
+
 .navbar-brand, .navbar-toggler-icon i{
   font-size: 1.5rem!important;
 }
