@@ -1260,7 +1260,7 @@ select {
 }
 #about .contact a{
   font-size: 22px;
-  color: #ffffff;
+  color: #ffffff!important;
 }
 .aboutimg .img-fluid{
   height: auto;
