@@ -1026,7 +1026,7 @@ select {
 .sendbtn {
   /* Chrome/Opera/Safari */
   text-align: center;
-  margin: 25px 0;
+  margin: 35px 0 25px 0;
 }
 
 .sendbtn button {
