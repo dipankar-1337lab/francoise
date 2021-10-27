@@ -208,7 +208,7 @@ overflow: hidden;
 #clientservices .b2b .subtitle {
   /* font-size: 30px; */
   font-size: 1.5vw;
-  font-family: 'pt';
+  /* font-family: 'pt'; */
   font-weight: bold;
   text-transform: none;
 }
@@ -1239,7 +1239,7 @@ select {
 }
 
 .navbar-brand, .navbar-toggler-icon i{
-  font-size: 2rem!important;
+  font-size: 1.5rem!important;
 }
 
 #navbarSideClose{
@@ -1256,6 +1256,15 @@ select {
 }
 #clientservices .title{
   font-size: 30px;
+}
+#clientservices .b2b .subtitle, #clientservices .b2c .subtitle{
+  font-size: 24px;
+}
+#clientservices .b2b p{
+  font-size: 24px;
+}
+#clientservices .b2c li{
+  font-size: 16px;
 }
 .client_services .learnmore .sertitle {
   font-size: 22px;
