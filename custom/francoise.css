@@ -208,7 +208,7 @@ overflow: hidden;
 #clientservices .b2b .subtitle {
   /* font-size: 30px; */
   font-size: 1.5vw;
-  /* font-family: 'pt'; */
+  font-family: 'pt';
   font-weight: bold;
   text-transform: none;
 }
