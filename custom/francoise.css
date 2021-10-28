@@ -1227,10 +1227,6 @@ select {
   .cover-container {
     overflow-x: hidden;
   }
-
-  .contactWrp .sendbtn{
-    margin: 48px 0 25px 0;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1374,6 +1370,9 @@ select {
   }
   #contact h3{
     font-size: 22px;
+  }
+  .contactWrp .sendbtn{
+    margin: 48px 0 25px 0;
   }
   .iconContact-1 {
     margin-left: 0px;
