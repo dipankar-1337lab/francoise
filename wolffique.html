@@ -56,110 +56,41 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link naver" href="services.html">SERVICES</a>
+            <a class="nav-link naver" href="javascript:void(0)">SERVICES</a>
           </li>
-		   
-		      <li class="nav-item">
+  
+          <li class="nav-item">
             <a class="nav-link naver" href="wolffique.html">WOLFFIQUE&nbsp;&nbsp;<img src="img/shop-icon-2.svg" class="wolfique-shop-icon"></a>
           </li>
          
           <li class="nav-item">
             <a class="nav-link naver" href="reviews.html">REVIEWS</a>
           </li>
-
+  
           <li class="nav-item">
-            <a class="nav-link naver" href="javascript:void(0)">CONNECT</a>
+            <a class="nav-link naver" href="contact.html">CONNECT</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <section id="contact" class="cover-container d-flex   w-100 align-items-center undernav" style="flex: 1">
-    <!-- flex comlumn -->
- 
-    <div class="container-fluid col-xl-10 col-sm-10 col-md-10">
-      
-        <h3 class="pt-3 pb-5">register for private client services with wolff</h3>
-        <div class="row contactWrp">
-      
-          <div class="d-flex col-xl-8 col-sm-6 col-md-7  pt-2">
+  <section id="clientservices" class="cover-container d-flex   w-100 align-items-center undernav">
 
-            <form name="contact_form_contact" id="contact_form_contact">
-              <input type="hidden" name="form" value="contact" />
-              <div>             
-                <div class="col-12">
-                  <label>First Name</label>
-                  <input type="text" name="firstName" class="form-control" placeholder="(required)" autocomplete="off">
-                </div>
-                <!--    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                <div class="col-12">
-                  <label>Last Name</label>
-                  <input type="text" name="lastName" class="form-control" placeholder="(required)"  autocomplete="off">
-                </div>
-
-                <div class="col-12">
-                  <label>Email</label>
-                  <input type="email" name="email" class="form-control" placeholder="(required)"  autocomplete="off">
-                </div>
-
-
-                <div class="col-12">
-                  <label>Mobile</label>
-                  <input type="tel" name="mobile" class="form-control" placeholder="(required)"  autocomplete="off">
-                </div>
-                <input type="text" name="hp" class="hp" value="">
-                <div class="sendbtn">
-                  <button type="submit" class="btn btn-send"> </button>
-                </div>
-              </div>
-            </form>
-            
-            <div class="modal fade thankyouModal" id="thankYou" tabindex="-1" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-            
-                <div class="modal-content">
-                  
-                  
-                  <div class="p-4 col-12 align-items-center">
-                    <div class="thankyouWrp" >
-                      <h2>Thank you for your inquiry!</h2>
-                      <p>You will receive an email response within 48 hours.</p>
-                <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="img/icoCloseMobile.ioc" alt="close" /> </a>
-                    </div>
-              
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="d-flex col-xl-4 col-sm-6 col-md-5 vh-100 pt-2 contactright" >
-            <div class=" d-flex  ">
-              <div class="content">
-
-                <div class="h2">See.<br />
-                  Learn.<br />
-                  Share.<br />
-                  Do.</div>
-                <h3 >Connect</h3>
-                <a href="https://www.instagram.com/iamfrancoisb/" target="_blank"><img src="img/Ig-Icon.jpg" alt="https://www.instagram.com/iamfrancoisb/" class="iconContact-1"></a>
-                <a href="https://www.linkedin.com/in/francoisbelizaire" target="_blank"> <img src="img/Ig-Link.jpg" alt="https://www.linkedin.com/in/francoisbelizaire" class="iconContact-2"></a>
-              </div>
-            </div>
-          </div>
-        </div> <!--  end row -->
-      
-    </div> <!-- end container -->
-  </section> <!-- Averiguar que tiene el bundle -->
+    <div class="container-fluid client_services align-items-middle justify-content-center">
+      <div class="row">
+        <div class="col-xl-12 m-0 d-flex align-items-middle justify-content-center">
+          <h3>Coming Soon!</h3>
+        </div>
+      </div>      
+    </div>  
+  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
   <script src="https://kit.fontawesome.com/34f0dcaedc.js" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="custom/francoise.js"></script>
   <!-- animate y wow -->
   <script src="js/wow.js"></script>
-  <!-- <script src="js/aos.js"></script> -->
+  <script src="js/aos.js"></script>
   <script>
     new WOW().init();
   </script>
@@ -177,12 +108,12 @@
     wow.init(); // Attach scrollSpy to .wow elements for detect view exit events,
 
 
-    // AOS.init({
-    //   delay: 50,
-    //   duration: 800,
-    //   once: false,
-    //   offset: 0
-    // });
+    AOS.init({
+      delay: 50,
+      duration: 800,
+      once: false,
+      offset: 0
+    });
   // then reset elements and add again for animation
   // $('.wow').on('scrollSpy:exit', function() {
   //   $(this).css({
@@ -196,9 +127,6 @@
     $(this).parents('.modal-content').find('.thankyouWrp').show();
 });
   
-  $(document).ready(function(){
-    $('#contact_form_contact input[name=mobile]').mask('(000) 000-0000');
-  })
   
   </script>
 </body>
